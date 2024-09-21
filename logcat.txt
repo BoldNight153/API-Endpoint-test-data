@@ -1,0 +1,127 @@
+2024-09-21 10:59:58.562  2234-2784  PackageMan...ilsExtImpl system_server                        E  Fix up user restrict data of pkg: com.tradingbot.smatestbot2
+2024-09-21 10:59:59.572  5115-5115  OplusQConfigSetting     com.oplus.persist.multimedia         E  not whitelist com.tradingbot.smatestbot2
+2024-09-21 11:00:00.140  8382-32608 SG::OCSCacheHelper      com.oplus.pantanal.ums               E  checkFromPackageReceiver resolvedInfo is empty,pkg = com.tradingbot.smatestbot2
+2024-09-21 11:00:00.142  8382-32608 SG::OCSCacheHelper      com.oplus.pantanal.ums               E  checkFromPackageReceiver resolvedInfo is empty,pkg = com.tradingbot.smatestbot2
+2024-09-21 11:00:00.823  2234-3555  UAH_JNI                 system_server                        E  uah_event_acquire ! cmdId: 1 ,strPkg: com.tradingbot.smatestbot2, strIdent: com.android.server.wm, timeout: 2000
+2024-09-21 11:00:00.928  2234-3555  UAH_JNI                 system_server                        E  uah_event_acquire ! cmdId: 0 ,strPkg: com.tradingbot.smatestbot2, strIdent: com.android.server.wm, timeout: 600
+2024-09-21 11:00:00.931  2234-2751  OplusThermalStats       system_server                        E  Error getting package info: com.tradingbot.smatestbot2
+2024-09-21 11:00:00.997 27112-27112 OplusFeatureCache       com.tradingbot.smatestbot2           I  Milliseconds spent on init(): 31
+2024-09-21 11:00:00.999 27112-27112 CompactWindowAppManager com.tradingbot.smatestbot2           D  initCompactApplicationInfo CompactMode: , NormalMode: 
+2024-09-21 11:00:01.002 27112-27112 OplusScrollToTopManager com.tradingbot.smatestbot2           D  setIsInWhiteList false
+2024-09-21 11:00:01.002 27112-27112 OplusViewDebugManager   com.tradingbot.smatestbot2           D  OplusViewDebugManager Constructor android.view.debug.OplusViewDebugManager@2701a51 [mHasViewDebugProperty true] [mHasMsgDebugProperty false] [DEBUG false] [EXTRAINFOENABLE false] [LIGHT_OS false]
+2024-09-21 11:00:01.004 27112-27112 Compatibil...geReporter com.tradingbot.smatestbot2           D  Compat change id reported: 242716250; UID 10550; state: ENABLED
+2024-09-21 11:00:01.008 27112-27112 libc                    com.tradingbot.smatestbot2           W  Access denied finding property "ro.odm.prev.product.name"
+2024-09-21 11:00:01.010 27112-27112 ziparchive              com.tradingbot.smatestbot2           W  Unable to open '/data/app/~~Wor1zUdwtvJ9Zp4ZZLijSQ==/com.tradingbot.smatestbot2-Zhx6uPKaMzJa8lyeUYuswA==/base.dm': No such file or directory
+2024-09-21 11:00:01.010 27112-27112 ziparchive              com.tradingbot.smatestbot2           W  Unable to open '/data/app/~~Wor1zUdwtvJ9Zp4ZZLijSQ==/com.tradingbot.smatestbot2-Zhx6uPKaMzJa8lyeUYuswA==/base.dm': No such file or directory
+2024-09-21 11:00:01.084 27112-27112 nativeloader            com.tradingbot.smatestbot2           D  Configuring clns-4 for other apk /data/app/~~Wor1zUdwtvJ9Zp4ZZLijSQ==/com.tradingbot.smatestbot2-Zhx6uPKaMzJa8lyeUYuswA==/base.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~Wor1zUdwtvJ9Zp4ZZLijSQ==/com.tradingbot.smatestbot2-Zhx6uPKaMzJa8lyeUYuswA==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.tradingbot.smatestbot2
+2024-09-21 11:00:01.091 27112-27112 nativeloader            com.tradingbot.smatestbot2           D  Load libframework-connectivity-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity.jar: ok
+2024-09-21 11:00:01.094 27112-27112 GraphicsEnvironment     com.tradingbot.smatestbot2           V  Currently set values for:
+2024-09-21 11:00:01.094 27112-27112 GraphicsEnvironment     com.tradingbot.smatestbot2           V    angle_gl_driver_selection_pkgs=[]
+2024-09-21 11:00:01.094 27112-27112 GraphicsEnvironment     com.tradingbot.smatestbot2           V    angle_gl_driver_selection_values=[]
+2024-09-21 11:00:01.094 27112-27112 GraphicsEnvironment     com.tradingbot.smatestbot2           V  ANGLE GameManagerService for com.tradingbot.smatestbot2: false
+2024-09-21 11:00:01.094 27112-27112 GraphicsEnvironment     com.tradingbot.smatestbot2           V  com.tradingbot.smatestbot2 is not listed in per-application setting
+2024-09-21 11:00:01.094 27112-27112 GraphicsEnvironment     com.tradingbot.smatestbot2           V  Updatable production driver is not supported on the device.
+2024-09-21 11:00:01.096 27112-27112 ActivityThread          com.tradingbot.smatestbot2           W  Application com.tradingbot.smatestbot2 is suspending. Debugger needs to resume to continue.
+2024-09-21 11:00:01.097 27112-27112 System.out              com.tradingbot.smatestbot2           I  Sending WAIT chunk
+2024-09-21 11:00:01.097 27112-27112 System.out              com.tradingbot.smatestbot2           I  Waiting for debugger first packet
+2024-09-21 11:00:01.122 27112-2541  nativeloader            com.tradingbot.smatestbot2           D  Load libjdwp.so using system ns (caller=<unknown>): ok
+2024-09-21 11:00:01.197 27112-27112 System.out              com.tradingbot.smatestbot2           I  Debug.suspendAllAndSentVmStart
+2024-09-21 11:00:01.540 27112-27112 System.out              com.tradingbot.smatestbot2           I  Debug.suspendAllAndSendVmStart, resumed
+2024-09-21 11:00:01.543 27112-27112 ResourcesManagerExtImpl com.tradingbot.smatestbot2           D  applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+2024-09-21 11:00:01.551 27112-27112 nativeloader            com.tradingbot.smatestbot2           D  Load libSchedAssistJni.so using system ns (caller=/system/framework/oplus-framework.jar): ok
+2024-09-21 11:00:01.551 27112-27112 ExtensionsLoader        com.tradingbot.smatestbot2           D  createInstance(64bit) : createExtendedFactory
+2024-09-21 11:00:01.552 27112-27112 ExtensionsLoader        com.tradingbot.smatestbot2           D  Opened libSchedAssistExtImpl.so
+2024-09-21 11:00:01.552 27112-27112 SchedAssist             com.tradingbot.smatestbot2           E  sysOpen failed with error=Permission denied
+2024-09-21 11:00:01.552 27112-27112 SchedAssist             com.tradingbot.smatestbot2           E  sharedImFd failed with error=Permission denied
+2024-09-21 11:00:01.554 27112-27112 OplusGraphicsEvent      com.tradingbot.smatestbot2           D  OplusGraphicsEventListener create now!
+2024-09-21 11:00:01.555 27112-27112 OplusGraphicsEvent      com.tradingbot.smatestbot2           D  addEventListener success!
+2024-09-21 11:00:01.557  2234-2505  ScrollOpti...rfService] system_server                        E  isScrollOptimEnable: pkgName = com.tradingbot.smatestbot2, output = Bundle[{pre_anim_enable=true, frame_insert_list=null, frame_insert_default_num=1, scroll_changed_enable_list=null}]
+2024-09-21 11:00:01.557 27112-27112 ScrollOpti...igManager] com.tradingbot.smatestbot2           D  initOptConfig: pkg= com.tradingbot.smatestbot2, mOptEnable= true, mAnimAheadEnable= true, mInsertDefaultNum= 1, mFrameInsertEnableList= {}, mSCEnableList= []
+2024-09-21 11:00:01.565 27112-27112 Quality                 com.tradingbot.smatestbot2           I  ActivityThread: bindApplication delay 599 com.tradingbot.smatestbot2 27112
+2024-09-21 11:00:01.575 27112-27112 ResourcesManagerExtImpl com.tradingbot.smatestbot2           D  applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+2024-09-21 11:00:01.596 27112-27112 AppCompatDelegate       com.tradingbot.smatestbot2           D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2024-09-21 11:00:01.621 27112-27112 oplus.andr...actoryImpl com.tradingbot.smatestbot2           I  Unknow feature:IOplusTextViewRTLUtilForUG
+2024-09-21 11:00:01.622 27112-27112 nativeloader            com.tradingbot.smatestbot2           D  Load liboplushwui_jni.so using system ns (caller=/system/framework/oplus-framework.jar): ok
+2024-09-21 11:00:01.625 27112-27112 bot.smatestbot2         com.tradingbot.smatestbot2           E  Invalid resource ID 0x00000000.
+2024-09-21 11:00:01.643 27112-27112 ScrollOpti...tionHelper com.tradingbot.smatestbot2           D  can't find the config file for optimizaiton
+2024-09-21 11:00:01.643 27112-27112 ScrollOpti...tionHelper com.tradingbot.smatestbot2           D  will not debug for debug is false
+2024-09-21 11:00:01.643 27112-27112 oplus.andr...actoryImpl com.tradingbot.smatestbot2           I  get feature:IOplusDynamicVsyncFeature
+2024-09-21 11:00:01.643 27112-27112 oplus.andr...actoryImpl com.tradingbot.smatestbot2           I  get feature:IOplusDynamicVsyncFeature
+2024-09-21 11:00:01.643 27112-27112 oplus.andr...actoryImpl com.tradingbot.smatestbot2           I  get feature:IOplusDynamicVsyncFeature
+2024-09-21 11:00:01.664 27112-27112 bot.smatestbot2         com.tradingbot.smatestbot2           W  Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+2024-09-21 11:00:01.665 27112-27112 OplusCusto...ionManager com.tradingbot.smatestbot2           E  sInstance is null, start a new sInstance
+2024-09-21 11:00:01.669 27112-27112 Compatibil...geReporter com.tradingbot.smatestbot2           D  Compat change id reported: 210923482; UID 10550; state: ENABLED
+2024-09-21 11:00:01.680 27112-27112 Compatibil...geReporter com.tradingbot.smatestbot2           D  Compat change id reported: 171228096; UID 10550; state: ENABLED
+2024-09-21 11:00:01.684 27112-2822  MainActivity            com.tradingbot.smatestbot2           D  Fetching accounts...
+2024-09-21 11:00:01.700 27112-27112 ScrollOpti...neManager] com.tradingbot.smatestbot2           D  updateCurrentActivity: mCurrentActivityName=com.tradingbot.smatestbot2.MainActivity, isOptEnable=true, isAnimAheadEnable=true, isFrameInsertEnable=true, InsertNum=1, isEnabledForScrollChanged=false
+2024-09-21 11:00:01.700 27112-27112 ActivityThread          com.tradingbot.smatestbot2           D  ComponentInfo{com.tradingbot.smatestbot2/com.tradingbot.smatestbot2.MainActivity} checkFinished=false 2
+2024-09-21 11:00:01.700 27112-27112 ResourcesManagerExtImpl com.tradingbot.smatestbot2           D  applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+2024-09-21 11:00:01.703 27112-27112 OplusInputMethodUtil    com.tradingbot.smatestbot2           D  init sDebug to false, init sDebugIme to false, init sAlwaysOn to false
+2024-09-21 11:00:01.703 27112-27112 OplusInputMethodUtil    com.tradingbot.smatestbot2           D  updateDebugToClass InputMethodManager.DEBUG = false
+2024-09-21 11:00:01.703 27112-27112 OplusInputMethodUtil    com.tradingbot.smatestbot2           D  updateDebugToClass ImeFocusController.DEBUG = false
+2024-09-21 11:00:01.703 27112-27112 OplusInputMethodUtil    com.tradingbot.smatestbot2           D  updateDebugToClass BaseInputConnection.DEBUG = false
+2024-09-21 11:00:01.707 27112-27112 ExtensionsLoader        com.tradingbot.smatestbot2           D  createInstance(64bit) : createExtendedFactory
+2024-09-21 11:00:01.707 27112-27112 ExtensionsLoader        com.tradingbot.smatestbot2           D  Opened libguiextimpl.so
+2024-09-21 11:00:01.707 27112-27112 nativeloader            com.tradingbot.smatestbot2           D  Load liboplusgui_jni.so using system ns (caller=/system/framework/oplus-framework.jar): ok
+2024-09-21 11:00:01.709 27112-27112 Compatibil...geReporter com.tradingbot.smatestbot2           D  Compat change id reported: 237531167; UID 10550; state: DISABLED
+2024-09-21 11:00:01.712 27112-27112 DynamicFra...igManager] com.tradingbot.smatestbot2           I  initFrameRateConfig: 
+                                                                                                    	levels: [120, 60]
+                                                                                                    	thresholds: [200]
+                                                                                                    	scrollbar fade frame rate: 0
+2024-09-21 11:00:01.712 27112-27112 DynamicFra...igManager] com.tradingbot.smatestbot2           I  FRTCConfigManager: FRTC_CAPABILITY = 120, package name = com.tradingbot.smatestbot2, WINDOW_ANIMATION_SPEED_RATE = 10, SCROLL_ANIMATION_SPEED_RATE = 20, MuitiWindowIdleFramerate = 60, PACKAGE_ENABLE = false
+2024-09-21 11:00:01.712 27112-27112 DynamicFra...ontroller] com.tradingbot.smatestbot2           I  init info: mPackageName = com.tradingbot.smatestbot2, mIsEnabled = false
+2024-09-21 11:00:01.712 27112-27112 WindowManager           com.tradingbot.smatestbot2           D  Add to mViews: DecorView@b2bdaf1[MainActivity],pkg= com.tradingbot.smatestbot2
+2024-09-21 11:00:01.713 27112-2818  ExtensionsLoader        com.tradingbot.smatestbot2           D  createInstance(64bit) : createExtendedFactory
+2024-09-21 11:00:01.714 27112-2818  ExtensionsLoader        com.tradingbot.smatestbot2           D  Opened libhwuiextimpl.so
+2024-09-21 11:00:01.714 27112-27112 ExtensionsLoader        com.tradingbot.smatestbot2           D  createInstance(64bit) : createExtendedFactory
+2024-09-21 11:00:01.714 27112-27112 ExtensionsLoader        com.tradingbot.smatestbot2           D  Opened libSchedAssistExtImpl.so
+2024-09-21 11:00:01.726 27112-27112 InputEventReceiver      com.tradingbot.smatestbot2           D  Input log is disabled in InputEventReceiver.
+2024-09-21 11:00:01.731 27112-27112 ResourcesManagerExtImpl com.tradingbot.smatestbot2           D  applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+2024-09-21 11:00:01.733 27112-27112 Quality                 com.tradingbot.smatestbot2           I  Skipped: false 3 cost 33.267345 refreshRate 8334156 bit true processName com.tradingbot.smatestbot2
+2024-09-21 11:00:01.735 27112-27112 OplusBracketLog         com.tradingbot.smatestbot2           E  [OplusViewMirrorManager] updateHostViewRootIfNeeded, not support android.view.ViewRootImpl@14af7f3
+2024-09-21 11:00:01.744 27112-27112 ViewRootImplExtImpl     com.tradingbot.smatestbot2           D  wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=360, relayoutAsync=false, newFlags=23592960, title=com.tradingbot.smatestbot2/com.tradingbot.smatestbot2.MainActivity
+2024-09-21 11:00:01.758 27112-27112 VRI[MainActivity]       com.tradingbot.smatestbot2           D  relayoutWindow result, sizeChanged:true, surfaceControlChanged:true, transformHintChanged:true, mSurfaceSize:Point(1080, 2412), mLastSurfaceSize:Point(0, 0), mWidth:-1, mHeight:-1, requestedWidth:1080, requestedHeight:2412, transformHint:0, lastTransformHint:-2147483648, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:-2122252032, useBlast:true, tmpFrames:ClientWindowFrames{frame=[0,0][1080,2412] display=[0,0][1080,2412] parentFrame=[0,0][0,0]}, params:{(0,0)(fillxfill) sim={adjust=resize forwardNavigation} ty=BASE_APPLICATION wanim=0x10302fe
+                                                                                                      fl=LAYOUT_IN_SCREEN LAYOUT_INSET_DECOR SPLIT_TOUCH HARDWARE_ACCELERATED DRAWS_SYSTEM_BAR_BACKGROUNDS
+                                                                                                      pfl=NO_MOVE_ANIMATION FORCE_DRAW_STATUS_BAR_BACKGROUND USE_BLAST FIT_INSETS_CONTROLLED
+                                                                                                      bhv=DEFAULT
+                                                                                                      fitSides= CLP[ ]}
+2024-09-21 11:00:01.759 27112-27112 VRI[MainActivity]       com.tradingbot.smatestbot2           W  updateBlastSurfaceIfNeeded, surfaceSize:Point(1080, 2412), lastSurfaceSize:Point(0, 0), format:-1, blastBufferQueue:null
+2024-09-21 11:00:01.766 27112-27112 BufferQueueConsumer     com.tradingbot.smatestbot2           D  [](id:69e800000000,api:0,p:-1,c:27112) connect: controlledByApp=false
+2024-09-21 11:00:01.767 27112-27112 ExtensionsLoader        com.tradingbot.smatestbot2           D  createInstance(64bit) : createExtendedFactory
+2024-09-21 11:00:01.767 27112-27112 ExtensionsLoader        com.tradingbot.smatestbot2           D  Opened libSchedAssistExtImpl.so
+2024-09-21 11:00:01.769 27112-2818  AdrenoGLES-0            com.tradingbot.smatestbot2           I  QUALCOMM build                   : a1cf8ab5e3, I428bf45773
+                                                                                                    Build Date                       : 11/09/23
+                                                                                                    OpenGL ES Shader Compiler Version: EV031.35.01.12
+                                                                                                    Local Branch                     : 
+                                                                                                    Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.9.14.11.00.00.571.148
+                                                                                                    Remote Branch                    : NONE
+                                                                                                    Reconstruct Branch               : NOTHING
+2024-09-21 11:00:01.769 27112-2818  AdrenoGLES-0            com.tradingbot.smatestbot2           I  Build Config                     : S P 10.0.7 AArch64
+2024-09-21 11:00:01.769 27112-2818  AdrenoGLES-0            com.tradingbot.smatestbot2           I  Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+2024-09-21 11:00:01.773 27112-2818  AdrenoGLES-0            com.tradingbot.smatestbot2           I  PFP: 0x016dc094, ME: 0x00000000
+2024-09-21 11:00:01.776 27112-2822  TrafficStats            com.tradingbot.smatestbot2           D  tagSocket(114) with statsTag=0xffffffff, statsUid=-1
+2024-09-21 11:00:01.784 27112-2818  BufferQueueProducer     com.tradingbot.smatestbot2           D  [VRI[MainActivity]#0(BLAST Consumer)0](id:69e800000000,api:1,p:27112,c:27112) connect: api=1 producerControlledByApp=true
+2024-09-21 11:00:01.784 27112-2818  OpenGLRenderer          com.tradingbot.smatestbot2           E  Unable to match the desired swap behavior.
+2024-09-21 11:00:01.785 27112-27112 SurfaceControl          com.tradingbot.smatestbot2           I   setExtendedRangeBrightness sc=Surface(name=com.tradingbot.smatestbot2/com.tradingbot.smatestbot2.MainActivity)/@0xad7cf6a,currentBufferRatio=1.0,desiredRatio=1.0
+2024-09-21 11:00:01.818 27112-2818  BLASTBufferQueue        com.tradingbot.smatestbot2           D  [VRI[MainActivity]#0](f:0,a:1) acquireNextBufferLocked size=1080x2412 mFrameNumber=1 applyTransaction=true mTimestamp=157077586323933(auto) mPendingTransactions.size=0 graphicBufferId=116445153329152 transform=0
+2024-09-21 11:00:01.818 27112-2818  VRI[MainActivity]       com.tradingbot.smatestbot2           D  Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+2024-09-21 11:00:01.818 27112-27112 VRI[MainActivity]       com.tradingbot.smatestbot2           D  draw finished.
+2024-09-21 11:00:01.818 27112-27112 VRI[MainActivity]       com.tradingbot.smatestbot2           D  reportDrawFinished
+2024-09-21 11:00:01.818 27112-27112 ViewRootImplExtImpl     com.tradingbot.smatestbot2           D  setMaxDequeuedBufferCount: 2
+2024-09-21 11:00:01.832 27112-27112 VRI[MainActivity]       com.tradingbot.smatestbot2           W  handleResized, msg:5, frameChanged:false, configChanged:false, displayChanged:false, attachedFrameChanged:false, compatScaleChanged:false, pendingDragResizing=false
+2024-09-21 11:00:01.834 27112-27112 Quality                 com.tradingbot.smatestbot2           I  Skipped: false 7 cost 60.953938 refreshRate 8333918 bit true processName com.tradingbot.smatestbot2
+2024-09-21 11:00:01.838 27112-2818  VRI[MainActivity]       com.tradingbot.smatestbot2           D  Received frameCommittedCallback lastAttemptedDrawFrameNum=2 didProduceBuffer=true syncBuffer=false
+2024-09-21 11:00:01.838 27112-27112 VRI[MainActivity]       com.tradingbot.smatestbot2           D  draw finished.
+2024-09-21 11:00:01.838 27112-27112 VRI[MainActivity]       com.tradingbot.smatestbot2           D  reportDrawFinished
+2024-09-21 11:00:01.839 27112-27112 VRI[MainActivity]       com.tradingbot.smatestbot2           D  onFocusEvent true
+2024-09-21 11:00:02.224 27112-27112 Compatibil...geReporter com.tradingbot.smatestbot2           D  Compat change id reported: 147798919; UID 10550; state: ENABLED
+2024-09-21 11:00:02.225 27112-2822  MainActivity            com.tradingbot.smatestbot2           E  Error fetching accounts
+                                                                                                    java.lang.Exception: HTTP error code: 401
+                                                                                                    	at com.tradingbot.smatestbot2.BaseAPI.makeRequest(BaseAPI.java:89)
+                                                                                                    	at com.tradingbot.smatestbot2.AccountAPI.getAccounts(AccountAPI.java:47)
+                                                                                                    	at com.tradingbot.smatestbot2.MainActivity.lambda$fetchAccounts$3$com-tradingbot-smatestbot2-MainActivity(MainActivity.java:145)
+                                                                                                    	at com.tradingbot.smatestbot2.MainActivity$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+                                                                                                    	at java.lang.Thread.run(Thread.java:1012)
+2024-09-21 11:00:02.356 27112-2542  bot.smatestbot2         com.tradingbot.smatestbot2           I  Compiler allocated 6275KB to compile void android.view.ViewRootImpl.performTraversals()
+2024-09-21 11:00:02.847 27112-2845  OplusScrollToTopManager com.tradingbot.smatestbot2           D  com.tradingbot.smatestbot2/com.tradingbot.smatestbot2.MainActivity,This DecorView@b2bdaf1[MainActivity] change focus to true
+2024-09-21 11:00:06.931 27112-2909  ProfileInstaller        com.tradingbot.smatestbot2           D  Installing profile for com.tradingbot.smatestbot2
