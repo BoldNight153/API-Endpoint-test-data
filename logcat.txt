@@ -1,136 +1,424 @@
-2024-09-21 11:53:40.579  2234-3555  UAH_JNI                 system_server                        E  uah_event_acquire ! cmdId: 1 ,strPkg: com.tradingbot.smatestbot2, strIdent: com.android.server.wm, timeout: 2000
-2024-09-21 11:53:40.633  3923-3923  UAH_JNI                 com.android.launcher                 E  uah_event_acquire ! cmdId: 85 ,strPkg: com.tradingbot.smatestbot2, strIdent: GpuBoost, timeout: 1000
-2024-09-21 11:53:40.651  2234-3555  UAH_JNI                 system_server                        E  uah_event_acquire ! cmdId: 0 ,strPkg: com.tradingbot.smatestbot2, strIdent: com.android.server.wm, timeout: 600
-2024-09-21 11:53:40.659  2234-2751  OplusThermalStats       system_server                        E  Error getting package info: com.tradingbot.smatestbot2
----------------------------- PROCESS STARTED (17720) for package com.tradingbot.smatestbot2 ----------------------------
-2024-09-21 11:53:40.699 17720-17720 OplusScrollToTopManager com.tradingbot.smatestbot2           D  setIsInWhiteList false
-2024-09-21 11:53:40.700 17720-17720 OplusViewDebugManager   com.tradingbot.smatestbot2           D  OplusViewDebugManager Constructor android.view.debug.OplusViewDebugManager@2701a51 [mHasViewDebugProperty true] [mHasMsgDebugProperty false] [DEBUG false] [EXTRAINFOENABLE false] [LIGHT_OS false]
-2024-09-21 11:53:40.701 17720-17720 Compatibil...geReporter com.tradingbot.smatestbot2           D  Compat change id reported: 242716250; UID 10552; state: ENABLED
-2024-09-21 11:53:40.705 17720-17720 libc                    com.tradingbot.smatestbot2           W  Access denied finding property "ro.odm.prev.product.name"
-2024-09-21 11:53:40.707 17720-17720 ziparchive              com.tradingbot.smatestbot2           W  Unable to open '/data/app/~~CzVCLnVD5gBSWjHzb01nmA==/com.tradingbot.smatestbot2-qs60ip1hA_EDMWtcbB6OwA==/base.dm': No such file or directory
-2024-09-21 11:53:40.707 17720-17720 ziparchive              com.tradingbot.smatestbot2           W  Unable to open '/data/app/~~CzVCLnVD5gBSWjHzb01nmA==/com.tradingbot.smatestbot2-qs60ip1hA_EDMWtcbB6OwA==/base.dm': No such file or directory
-2024-09-21 11:53:40.779 17720-17720 nativeloader            com.tradingbot.smatestbot2           D  Configuring clns-4 for other apk /data/app/~~CzVCLnVD5gBSWjHzb01nmA==/com.tradingbot.smatestbot2-qs60ip1hA_EDMWtcbB6OwA==/base.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~CzVCLnVD5gBSWjHzb01nmA==/com.tradingbot.smatestbot2-qs60ip1hA_EDMWtcbB6OwA==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.tradingbot.smatestbot2
-2024-09-21 11:53:40.785 17720-17720 nativeloader            com.tradingbot.smatestbot2           D  Load libframework-connectivity-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity.jar: ok
-2024-09-21 11:53:40.788 17720-17720 GraphicsEnvironment     com.tradingbot.smatestbot2           V  Currently set values for:
-2024-09-21 11:53:40.788 17720-17720 GraphicsEnvironment     com.tradingbot.smatestbot2           V    angle_gl_driver_selection_pkgs=[]
-2024-09-21 11:53:40.788 17720-17720 GraphicsEnvironment     com.tradingbot.smatestbot2           V    angle_gl_driver_selection_values=[]
-2024-09-21 11:53:40.789 17720-17720 GraphicsEnvironment     com.tradingbot.smatestbot2           V  ANGLE GameManagerService for com.tradingbot.smatestbot2: false
-2024-09-21 11:53:40.789 17720-17720 GraphicsEnvironment     com.tradingbot.smatestbot2           V  com.tradingbot.smatestbot2 is not listed in per-application setting
-2024-09-21 11:53:40.789 17720-17720 GraphicsEnvironment     com.tradingbot.smatestbot2           V  Updatable production driver is not supported on the device.
-2024-09-21 11:53:40.792 17720-17720 ResourcesManagerExtImpl com.tradingbot.smatestbot2           D  applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
-2024-09-21 11:53:40.797 17720-17720 nativeloader            com.tradingbot.smatestbot2           D  Load libSchedAssistJni.so using system ns (caller=/system/framework/oplus-framework.jar): ok
-2024-09-21 11:53:40.797 17720-17720 ExtensionsLoader        com.tradingbot.smatestbot2           D  createInstance(64bit) : createExtendedFactory
-2024-09-21 11:53:40.797 17720-17720 ExtensionsLoader        com.tradingbot.smatestbot2           D  Opened libSchedAssistExtImpl.so
-2024-09-21 11:53:40.797 17720-17720 SchedAssist             com.tradingbot.smatestbot2           E  sysOpen failed with error=Permission denied
-2024-09-21 11:53:40.797 17720-17720 SchedAssist             com.tradingbot.smatestbot2           E  sharedImFd failed with error=Permission denied
-2024-09-21 11:53:40.799 17720-17720 OplusGraphicsEvent      com.tradingbot.smatestbot2           D  OplusGraphicsEventListener create now!
-2024-09-21 11:53:40.799 17720-17720 OplusGraphicsEvent      com.tradingbot.smatestbot2           D  addEventListener success!
-2024-09-21 11:53:40.800  2234-3782  ScrollOpti...rfService] system_server                        E  isScrollOptimEnable: pkgName = com.tradingbot.smatestbot2, output = Bundle[{pre_anim_enable=true, frame_insert_list=null, frame_insert_default_num=1, scroll_changed_enable_list=null}]
-2024-09-21 11:53:40.800 17720-17720 ScrollOpti...igManager] com.tradingbot.smatestbot2           D  initOptConfig: pkg= com.tradingbot.smatestbot2, mOptEnable= true, mAnimAheadEnable= true, mInsertDefaultNum= 1, mFrameInsertEnableList= {}, mSCEnableList= []
-2024-09-21 11:53:40.811 17720-17720 ResourcesManagerExtImpl com.tradingbot.smatestbot2           D  applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
-2024-09-21 11:53:40.824 17720-17720 AppCompatDelegate       com.tradingbot.smatestbot2           D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
-2024-09-21 11:53:40.842 17720-17720 oplus.andr...actoryImpl com.tradingbot.smatestbot2           I  Unknow feature:IOplusTextViewRTLUtilForUG
-2024-09-21 11:53:40.843 17720-17720 nativeloader            com.tradingbot.smatestbot2           D  Load liboplushwui_jni.so using system ns (caller=/system/framework/oplus-framework.jar): ok
-2024-09-21 11:53:40.845 17720-17720 bot.smatestbot2         com.tradingbot.smatestbot2           E  Invalid resource ID 0x00000000.
-2024-09-21 11:53:40.856 17720-17720 ScrollOpti...tionHelper com.tradingbot.smatestbot2           D  can't find the config file for optimizaiton
-2024-09-21 11:53:40.856 17720-17720 ScrollOpti...tionHelper com.tradingbot.smatestbot2           D  will not debug for debug is false
-2024-09-21 11:53:40.856 17720-17720 oplus.andr...actoryImpl com.tradingbot.smatestbot2           I  get feature:IOplusDynamicVsyncFeature
-2024-09-21 11:53:40.857 17720-17720 oplus.andr...actoryImpl com.tradingbot.smatestbot2           I  get feature:IOplusDynamicVsyncFeature
-2024-09-21 11:53:40.857 17720-17720 oplus.andr...actoryImpl com.tradingbot.smatestbot2           I  get feature:IOplusDynamicVsyncFeature
-2024-09-21 11:53:40.871 17720-17720 bot.smatestbot2         com.tradingbot.smatestbot2           W  Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
-2024-09-21 11:53:40.872 17720-17720 OplusCusto...ionManager com.tradingbot.smatestbot2           E  sInstance is null, start a new sInstance
-2024-09-21 11:53:40.875 17720-17720 Compatibil...geReporter com.tradingbot.smatestbot2           D  Compat change id reported: 210923482; UID 10552; state: ENABLED
-2024-09-21 11:53:40.883 17720-17720 Compatibil...geReporter com.tradingbot.smatestbot2           D  Compat change id reported: 171228096; UID 10552; state: ENABLED
-2024-09-21 11:53:40.886 17720-21409 MainActivity            com.tradingbot.smatestbot2           D  Fetching accounts...
-2024-09-21 11:53:40.898 17720-17720 ScrollOpti...neManager] com.tradingbot.smatestbot2           D  updateCurrentActivity: mCurrentActivityName=com.tradingbot.smatestbot2.MainActivity, isOptEnable=true, isAnimAheadEnable=true, isFrameInsertEnable=true, InsertNum=1, isEnabledForScrollChanged=false
-2024-09-21 11:53:40.898 17720-17720 ActivityThread          com.tradingbot.smatestbot2           D  ComponentInfo{com.tradingbot.smatestbot2/com.tradingbot.smatestbot2.MainActivity} checkFinished=false 2
-2024-09-21 11:53:40.899 17720-17720 ResourcesManagerExtImpl com.tradingbot.smatestbot2           D  applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
-2024-09-21 11:53:40.901 17720-17720 OplusInputMethodUtil    com.tradingbot.smatestbot2           D  init sDebug to false, init sDebugIme to false, init sAlwaysOn to false
-2024-09-21 11:53:40.901 17720-17720 OplusInputMethodUtil    com.tradingbot.smatestbot2           D  updateDebugToClass InputMethodManager.DEBUG = false
-2024-09-21 11:53:40.901 17720-17720 OplusInputMethodUtil    com.tradingbot.smatestbot2           D  updateDebugToClass ImeFocusController.DEBUG = false
-2024-09-21 11:53:40.901 17720-17720 OplusInputMethodUtil    com.tradingbot.smatestbot2           D  updateDebugToClass BaseInputConnection.DEBUG = false
-2024-09-21 11:53:40.905 17720-17720 ExtensionsLoader        com.tradingbot.smatestbot2           D  createInstance(64bit) : createExtendedFactory
-2024-09-21 11:53:40.905 17720-17720 ExtensionsLoader        com.tradingbot.smatestbot2           D  Opened libguiextimpl.so
-2024-09-21 11:53:40.906 17720-17720 nativeloader            com.tradingbot.smatestbot2           D  Load liboplusgui_jni.so using system ns (caller=/system/framework/oplus-framework.jar): ok
-2024-09-21 11:53:40.908 17720-17720 Compatibil...geReporter com.tradingbot.smatestbot2           D  Compat change id reported: 237531167; UID 10552; state: DISABLED
-2024-09-21 11:53:40.911 17720-17720 DynamicFra...igManager] com.tradingbot.smatestbot2           I  initFrameRateConfig: 
+2024-09-21 19:46:09.325  2234-3555  UAH_JNI                 system_server                        E  uah_event_acquire ! cmdId: 1 ,strPkg: com.tradingbot.smatestbot2, strIdent: com.android.server.wm, timeout: 2000
+2024-09-21 19:46:09.376  3923-3923  UAH_JNI                 com.android.launcher                 E  uah_event_acquire ! cmdId: 85 ,strPkg: com.tradingbot.smatestbot2, strIdent: GpuBoost, timeout: 1000
+2024-09-21 19:46:09.415  2234-3555  UAH_JNI                 system_server                        E  uah_event_acquire ! cmdId: 0 ,strPkg: com.tradingbot.smatestbot2, strIdent: com.android.server.wm, timeout: 600
+2024-09-21 19:46:09.418  2234-2751  OplusThermalStats       system_server                        E  Error getting package info: com.tradingbot.smatestbot2
+---------------------------- PROCESS STARTED (11528) for package com.tradingbot.smatestbot2 ----------------------------
+2024-09-21 19:46:09.646 11528-11528 libc                    com.tradingbot.smatestbot2           W  Access denied finding property "ro.odm.prev.product.name"
+2024-09-21 19:46:09.649 11528-11528 ziparchive              com.tradingbot.smatestbot2           W  Unable to open '/data/data/com.tradingbot.smatestbot2/code_cache/.overlay/base.apk/classes3.dm': No such file or directory
+2024-09-21 19:46:09.650 11528-11528 ziparchive              com.tradingbot.smatestbot2           W  Unable to open '/data/app/~~i9fyKsEzDfv6LlvbEvOBDQ==/com.tradingbot.smatestbot2-rmd6CCoss7BPcscKeEpiNQ==/base.dm': No such file or directory
+2024-09-21 19:46:09.650 11528-11528 ziparchive              com.tradingbot.smatestbot2           W  Unable to open '/data/app/~~i9fyKsEzDfv6LlvbEvOBDQ==/com.tradingbot.smatestbot2-rmd6CCoss7BPcscKeEpiNQ==/base.dm': No such file or directory
+2024-09-21 19:46:09.720 11528-11528 nativeloader            com.tradingbot.smatestbot2           D  Configuring clns-4 for other apk /data/app/~~i9fyKsEzDfv6LlvbEvOBDQ==/com.tradingbot.smatestbot2-rmd6CCoss7BPcscKeEpiNQ==/base.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~i9fyKsEzDfv6LlvbEvOBDQ==/com.tradingbot.smatestbot2-rmd6CCoss7BPcscKeEpiNQ==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.tradingbot.smatestbot2
+2024-09-21 19:46:09.726 11528-11528 nativeloader            com.tradingbot.smatestbot2           D  Load libframework-connectivity-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity.jar: ok
+2024-09-21 19:46:09.728 11528-11528 GraphicsEnvironment     com.tradingbot.smatestbot2           V  Currently set values for:
+2024-09-21 19:46:09.728 11528-11528 GraphicsEnvironment     com.tradingbot.smatestbot2           V    angle_gl_driver_selection_pkgs=[]
+2024-09-21 19:46:09.728 11528-11528 GraphicsEnvironment     com.tradingbot.smatestbot2           V    angle_gl_driver_selection_values=[]
+2024-09-21 19:46:09.729 11528-11528 GraphicsEnvironment     com.tradingbot.smatestbot2           V  ANGLE GameManagerService for com.tradingbot.smatestbot2: false
+2024-09-21 19:46:09.729 11528-11528 GraphicsEnvironment     com.tradingbot.smatestbot2           V  com.tradingbot.smatestbot2 is not listed in per-application setting
+2024-09-21 19:46:09.729 11528-11528 GraphicsEnvironment     com.tradingbot.smatestbot2           V  Updatable production driver is not supported on the device.
+2024-09-21 19:46:09.732 11528-11528 ResourcesManagerExtImpl com.tradingbot.smatestbot2           D  applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+2024-09-21 19:46:09.739 11528-11528 nativeloader            com.tradingbot.smatestbot2           D  Load libSchedAssistJni.so using system ns (caller=/system/framework/oplus-framework.jar): ok
+2024-09-21 19:46:09.739 11528-11528 ExtensionsLoader        com.tradingbot.smatestbot2           D  createInstance(64bit) : createExtendedFactory
+2024-09-21 19:46:09.740 11528-11528 ExtensionsLoader        com.tradingbot.smatestbot2           D  Opened libSchedAssistExtImpl.so
+2024-09-21 19:46:09.740 11528-11528 SchedAssist             com.tradingbot.smatestbot2           E  sysOpen failed with error=Permission denied
+2024-09-21 19:46:09.740 11528-11528 SchedAssist             com.tradingbot.smatestbot2           E  sharedImFd failed with error=Permission denied
+2024-09-21 19:46:09.741 11528-11528 OplusGraphicsEvent      com.tradingbot.smatestbot2           D  OplusGraphicsEventListener create now!
+2024-09-21 19:46:09.742 11528-11528 OplusGraphicsEvent      com.tradingbot.smatestbot2           D  addEventListener success!
+2024-09-21 19:46:09.743  2234-4348  ScrollOpti...rfService] system_server                        E  isScrollOptimEnable: pkgName = com.tradingbot.smatestbot2, output = Bundle[{pre_anim_enable=true, frame_insert_list=null, frame_insert_default_num=1, scroll_changed_enable_list=null}]
+2024-09-21 19:46:09.743 11528-11528 ScrollOpti...igManager] com.tradingbot.smatestbot2           D  initOptConfig: pkg= com.tradingbot.smatestbot2, mOptEnable= true, mAnimAheadEnable= true, mInsertDefaultNum= 1, mFrameInsertEnableList= {}, mSCEnableList= []
+2024-09-21 19:46:09.750 11528-11528 ResourcesManagerExtImpl com.tradingbot.smatestbot2           D  applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+2024-09-21 19:46:09.763 11528-11528 AppCompatDelegate       com.tradingbot.smatestbot2           D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2024-09-21 19:46:09.780 11528-11528 oplus.andr...actoryImpl com.tradingbot.smatestbot2           I  Unknow feature:IOplusTextViewRTLUtilForUG
+2024-09-21 19:46:09.781 11528-11528 nativeloader            com.tradingbot.smatestbot2           D  Load liboplushwui_jni.so using system ns (caller=/system/framework/oplus-framework.jar): ok
+2024-09-21 19:46:09.783 11528-11528 bot.smatestbot2         com.tradingbot.smatestbot2           E  Invalid resource ID 0x00000000.
+2024-09-21 19:46:09.794 11528-11528 ScrollOpti...tionHelper com.tradingbot.smatestbot2           D  can't find the config file for optimizaiton
+2024-09-21 19:46:09.794 11528-11528 ScrollOpti...tionHelper com.tradingbot.smatestbot2           D  will not debug for debug is false
+2024-09-21 19:46:09.794 11528-11528 oplus.andr...actoryImpl com.tradingbot.smatestbot2           I  get feature:IOplusDynamicVsyncFeature
+2024-09-21 19:46:09.794 11528-11528 oplus.andr...actoryImpl com.tradingbot.smatestbot2           I  get feature:IOplusDynamicVsyncFeature
+2024-09-21 19:46:09.794 11528-11528 oplus.andr...actoryImpl com.tradingbot.smatestbot2           I  get feature:IOplusDynamicVsyncFeature
+2024-09-21 19:46:09.808 11528-11528 bot.smatestbot2         com.tradingbot.smatestbot2           W  Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+2024-09-21 19:46:09.809 11528-11528 OplusCusto...ionManager com.tradingbot.smatestbot2           E  sInstance is null, start a new sInstance
+2024-09-21 19:46:09.811 11528-11528 Compatibil...geReporter com.tradingbot.smatestbot2           D  Compat change id reported: 210923482; UID 10554; state: ENABLED
+2024-09-21 19:46:09.820 11528-11528 Compatibil...geReporter com.tradingbot.smatestbot2           D  Compat change id reported: 171228096; UID 10554; state: ENABLED
+2024-09-21 19:46:09.825 11528-12057 MainActivity            com.tradingbot.smatestbot2           D  2024-09-21 19:46:09.822 - Fetching accounts...
+2024-09-21 19:46:09.829 11528-12057 BaseAPI                 com.tradingbot.smatestbot2           D  2024-09-21 19:46:09.827 - Making request to URL: https://api-fxpractice.oanda.com/v3/accounts
+2024-09-21 19:46:09.831 11528-12057 BaseAPI                 com.tradingbot.smatestbot2           D  2024-09-21 19:46:09.829 - Request method: GET
+2024-09-21 19:46:09.832 11528-12057 BaseAPI                 com.tradingbot.smatestbot2           D  2024-09-21 19:46:09.831 - Request body: null
+2024-09-21 19:46:09.835 11528-11528 ScrollOpti...neManager] com.tradingbot.smatestbot2           D  updateCurrentActivity: mCurrentActivityName=com.tradingbot.smatestbot2.MainActivity, isOptEnable=true, isAnimAheadEnable=true, isFrameInsertEnable=true, InsertNum=1, isEnabledForScrollChanged=false
+2024-09-21 19:46:09.835 11528-11528 ActivityThread          com.tradingbot.smatestbot2           D  ComponentInfo{com.tradingbot.smatestbot2/com.tradingbot.smatestbot2.MainActivity} checkFinished=false 2
+2024-09-21 19:46:09.835 11528-11528 ResourcesManagerExtImpl com.tradingbot.smatestbot2           D  applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+2024-09-21 19:46:09.837 11528-11528 OplusInputMethodUtil    com.tradingbot.smatestbot2           D  init sDebug to false, init sDebugIme to false, init sAlwaysOn to false
+2024-09-21 19:46:09.837 11528-11528 OplusInputMethodUtil    com.tradingbot.smatestbot2           D  updateDebugToClass InputMethodManager.DEBUG = false
+2024-09-21 19:46:09.837 11528-11528 OplusInputMethodUtil    com.tradingbot.smatestbot2           D  updateDebugToClass ImeFocusController.DEBUG = false
+2024-09-21 19:46:09.837 11528-11528 OplusInputMethodUtil    com.tradingbot.smatestbot2           D  updateDebugToClass BaseInputConnection.DEBUG = false
+2024-09-21 19:46:09.838 11528-12057 TrafficStats            com.tradingbot.smatestbot2           D  tagSocket(110) with statsTag=0xffffffff, statsUid=-1
+2024-09-21 19:46:09.840 11528-11528 ExtensionsLoader        com.tradingbot.smatestbot2           D  createInstance(64bit) : createExtendedFactory
+2024-09-21 19:46:09.840 11528-11528 ExtensionsLoader        com.tradingbot.smatestbot2           D  Opened libguiextimpl.so
+2024-09-21 19:46:09.841 11528-11528 nativeloader            com.tradingbot.smatestbot2           D  Load liboplusgui_jni.so using system ns (caller=/system/framework/oplus-framework.jar): ok
+2024-09-21 19:46:09.843 11528-11528 Compatibil...geReporter com.tradingbot.smatestbot2           D  Compat change id reported: 237531167; UID 10554; state: DISABLED
+2024-09-21 19:46:09.845 11528-11528 DynamicFra...igManager] com.tradingbot.smatestbot2           I  initFrameRateConfig: 
                                                                                                     	levels: [120, 60]
                                                                                                     	thresholds: [200]
                                                                                                     	scrollbar fade frame rate: 0
-2024-09-21 11:53:40.911 17720-17720 DynamicFra...igManager] com.tradingbot.smatestbot2           I  FRTCConfigManager: FRTC_CAPABILITY = 120, package name = com.tradingbot.smatestbot2, WINDOW_ANIMATION_SPEED_RATE = 10, SCROLL_ANIMATION_SPEED_RATE = 20, MuitiWindowIdleFramerate = 60, PACKAGE_ENABLE = false
-2024-09-21 11:53:40.911 17720-17720 DynamicFra...ontroller] com.tradingbot.smatestbot2           I  init info: mPackageName = com.tradingbot.smatestbot2, mIsEnabled = false
-2024-09-21 11:53:40.911 17720-17720 WindowManager           com.tradingbot.smatestbot2           D  Add to mViews: DecorView@90fdd57[MainActivity],pkg= com.tradingbot.smatestbot2
-2024-09-21 11:53:40.912 17720-21383 ExtensionsLoader        com.tradingbot.smatestbot2           D  createInstance(64bit) : createExtendedFactory
-2024-09-21 11:53:40.913 17720-21383 ExtensionsLoader        com.tradingbot.smatestbot2           D  Opened libhwuiextimpl.so
-2024-09-21 11:53:40.913 17720-17720 ExtensionsLoader        com.tradingbot.smatestbot2           D  createInstance(64bit) : createExtendedFactory
-2024-09-21 11:53:40.914 17720-17720 ExtensionsLoader        com.tradingbot.smatestbot2           D  Opened libSchedAssistExtImpl.so
-2024-09-21 11:53:40.926 17720-17720 InputEventReceiver      com.tradingbot.smatestbot2           D  Input log is disabled in InputEventReceiver.
-2024-09-21 11:53:40.927 17720-17720 ResourcesManagerExtImpl com.tradingbot.smatestbot2           D  applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
-2024-09-21 11:53:40.928 17720-17720 Quality                 com.tradingbot.smatestbot2           I  Skipped: false 3 cost 30.04802 refreshRate 8334182 bit true processName com.tradingbot.smatestbot2
-2024-09-21 11:53:40.930 17720-17720 OplusBracketLog         com.tradingbot.smatestbot2           E  [OplusViewMirrorManager] updateHostViewRootIfNeeded, not support android.view.ViewRootImpl@289f729
-2024-09-21 11:53:40.937 17720-17720 ViewRootImplExtImpl     com.tradingbot.smatestbot2           D  wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=360, relayoutAsync=false, newFlags=23592960, title=com.tradingbot.smatestbot2/com.tradingbot.smatestbot2.MainActivity
-2024-09-21 11:53:40.951 17720-17720 VRI[MainActivity]       com.tradingbot.smatestbot2           D  relayoutWindow result, sizeChanged:true, surfaceControlChanged:true, transformHintChanged:true, mSurfaceSize:Point(1080, 2412), mLastSurfaceSize:Point(0, 0), mWidth:-1, mHeight:-1, requestedWidth:1080, requestedHeight:2412, transformHint:0, lastTransformHint:-2147483648, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:-2122252032, useBlast:true, tmpFrames:ClientWindowFrames{frame=[0,0][1080,2412] display=[0,0][1080,2412] parentFrame=[0,0][0,0]}, params:{(0,0)(fillxfill) sim={adjust=resize forwardNavigation} ty=BASE_APPLICATION wanim=0x10302fe
+2024-09-21 19:46:09.845 11528-11528 DynamicFra...igManager] com.tradingbot.smatestbot2           I  FRTCConfigManager: FRTC_CAPABILITY = 120, package name = com.tradingbot.smatestbot2, WINDOW_ANIMATION_SPEED_RATE = 10, SCROLL_ANIMATION_SPEED_RATE = 20, MuitiWindowIdleFramerate = 60, PACKAGE_ENABLE = false
+2024-09-21 19:46:09.845 11528-11528 DynamicFra...ontroller] com.tradingbot.smatestbot2           I  init info: mPackageName = com.tradingbot.smatestbot2, mIsEnabled = false
+2024-09-21 19:46:09.845 11528-11528 WindowManager           com.tradingbot.smatestbot2           D  Add to mViews: DecorView@d69ccb0[MainActivity],pkg= com.tradingbot.smatestbot2
+2024-09-21 19:46:09.846 11528-12053 ExtensionsLoader        com.tradingbot.smatestbot2           D  createInstance(64bit) : createExtendedFactory
+2024-09-21 19:46:09.847 11528-12053 ExtensionsLoader        com.tradingbot.smatestbot2           D  Opened libhwuiextimpl.so
+2024-09-21 19:46:09.847 11528-11528 ExtensionsLoader        com.tradingbot.smatestbot2           D  createInstance(64bit) : createExtendedFactory
+2024-09-21 19:46:09.847 11528-11528 ExtensionsLoader        com.tradingbot.smatestbot2           D  Opened libSchedAssistExtImpl.so
+2024-09-21 19:46:09.857 11528-11528 InputEventReceiver      com.tradingbot.smatestbot2           D  Input log is disabled in InputEventReceiver.
+2024-09-21 19:46:09.859 11528-11528 ResourcesManagerExtImpl com.tradingbot.smatestbot2           D  applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+2024-09-21 19:46:09.860 11528-11528 Quality                 com.tradingbot.smatestbot2           I  Skipped: false 3 cost 25.825676 refreshRate 8326615 bit true processName com.tradingbot.smatestbot2
+2024-09-21 19:46:09.862 11528-11528 OplusBracketLog         com.tradingbot.smatestbot2           E  [OplusViewMirrorManager] updateHostViewRootIfNeeded, not support android.view.ViewRootImpl@9d703ba
+2024-09-21 19:46:09.869 11528-11528 ViewRootImplExtImpl     com.tradingbot.smatestbot2           D  wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=360, relayoutAsync=false, newFlags=23592960, title=com.tradingbot.smatestbot2/com.tradingbot.smatestbot2.MainActivity
+2024-09-21 19:46:09.878 11528-11528 VRI[MainActivity]       com.tradingbot.smatestbot2           D  relayoutWindow result, sizeChanged:true, surfaceControlChanged:true, transformHintChanged:true, mSurfaceSize:Point(1080, 2412), mLastSurfaceSize:Point(0, 0), mWidth:-1, mHeight:-1, requestedWidth:1080, requestedHeight:2412, transformHint:0, lastTransformHint:-2147483648, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:-2122252032, useBlast:true, tmpFrames:ClientWindowFrames{frame=[0,0][1080,2412] display=[0,0][1080,2412] parentFrame=[0,0][0,0]}, params:{(0,0)(fillxfill) sim={adjust=resize forwardNavigation} ty=BASE_APPLICATION wanim=0x10302fe
                                                                                                       fl=LAYOUT_IN_SCREEN LAYOUT_INSET_DECOR SPLIT_TOUCH HARDWARE_ACCELERATED DRAWS_SYSTEM_BAR_BACKGROUNDS
                                                                                                       pfl=NO_MOVE_ANIMATION FORCE_DRAW_STATUS_BAR_BACKGROUND USE_BLAST FIT_INSETS_CONTROLLED
                                                                                                       bhv=DEFAULT
                                                                                                       fitSides= CLP[ ]}
-2024-09-21 11:53:40.951 17720-17720 VRI[MainActivity]       com.tradingbot.smatestbot2           W  updateBlastSurfaceIfNeeded, surfaceSize:Point(1080, 2412), lastSurfaceSize:Point(0, 0), format:-1, blastBufferQueue:null
-2024-09-21 11:53:40.959 17720-17720 BufferQueueConsumer     com.tradingbot.smatestbot2           D  [](id:453800000000,api:0,p:-1,c:17720) connect: controlledByApp=false
-2024-09-21 11:53:40.959 17720-17720 ExtensionsLoader        com.tradingbot.smatestbot2           D  createInstance(64bit) : createExtendedFactory
-2024-09-21 11:53:40.959 17720-17720 ExtensionsLoader        com.tradingbot.smatestbot2           D  Opened libSchedAssistExtImpl.so
-2024-09-21 11:53:40.961 17720-21383 AdrenoGLES-0            com.tradingbot.smatestbot2           I  QUALCOMM build                   : a1cf8ab5e3, I428bf45773
+2024-09-21 19:46:09.878 11528-11528 VRI[MainActivity]       com.tradingbot.smatestbot2           W  updateBlastSurfaceIfNeeded, surfaceSize:Point(1080, 2412), lastSurfaceSize:Point(0, 0), format:-1, blastBufferQueue:null
+2024-09-21 19:46:09.882 11528-11528 BufferQueueConsumer     com.tradingbot.smatestbot2           D  [](id:2d0800000000,api:0,p:-1,c:11528) connect: controlledByApp=false
+2024-09-21 19:46:09.883 11528-11528 ExtensionsLoader        com.tradingbot.smatestbot2           D  createInstance(64bit) : createExtendedFactory
+2024-09-21 19:46:09.883 11528-11528 ExtensionsLoader        com.tradingbot.smatestbot2           D  Opened libSchedAssistExtImpl.so
+2024-09-21 19:46:09.888 11528-12053 AdrenoGLES-0            com.tradingbot.smatestbot2           I  QUALCOMM build                   : a1cf8ab5e3, I428bf45773
                                                                                                     Build Date                       : 11/09/23
                                                                                                     OpenGL ES Shader Compiler Version: EV031.35.01.12
                                                                                                     Local Branch                     : 
                                                                                                     Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.9.14.11.00.00.571.148
                                                                                                     Remote Branch                    : NONE
                                                                                                     Reconstruct Branch               : NOTHING
-2024-09-21 11:53:40.961 17720-21383 AdrenoGLES-0            com.tradingbot.smatestbot2           I  Build Config                     : S P 10.0.7 AArch64
-2024-09-21 11:53:40.961 17720-21383 AdrenoGLES-0            com.tradingbot.smatestbot2           I  Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
-2024-09-21 11:53:40.965 17720-21383 AdrenoGLES-0            com.tradingbot.smatestbot2           I  PFP: 0x016dc094, ME: 0x00000000
-2024-09-21 11:53:40.976 17720-21383 BufferQueueProducer     com.tradingbot.smatestbot2           D  [VRI[MainActivity]#0(BLAST Consumer)0](id:453800000000,api:1,p:17720,c:17720) connect: api=1 producerControlledByApp=true
-2024-09-21 11:53:40.976 17720-21383 OpenGLRenderer          com.tradingbot.smatestbot2           E  Unable to match the desired swap behavior.
-2024-09-21 11:53:40.976 17720-17720 SurfaceControl          com.tradingbot.smatestbot2           I   setExtendedRangeBrightness sc=Surface(name=com.tradingbot.smatestbot2/com.tradingbot.smatestbot2.MainActivity)/@0xae1a186,currentBufferRatio=1.0,desiredRatio=1.0
-2024-09-21 11:53:40.985 17720-21383 BLASTBufferQueue        com.tradingbot.smatestbot2           D  [VRI[MainActivity]#0](f:0,a:1) acquireNextBufferLocked size=1080x2412 mFrameNumber=1 applyTransaction=true mTimestamp=159730497914119(auto) mPendingTransactions.size=0 graphicBufferId=76106820485120 transform=0
-2024-09-21 11:53:40.985 17720-21383 VRI[MainActivity]       com.tradingbot.smatestbot2           D  Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
-2024-09-21 11:53:40.985 17720-17720 VRI[MainActivity]       com.tradingbot.smatestbot2           D  draw finished.
-2024-09-21 11:53:40.985 17720-17720 VRI[MainActivity]       com.tradingbot.smatestbot2           D  reportDrawFinished
-2024-09-21 11:53:40.985 17720-17720 ViewRootImplExtImpl     com.tradingbot.smatestbot2           D  setMaxDequeuedBufferCount: 2
-2024-09-21 11:53:40.998 17720-17720 VRI[MainActivity]       com.tradingbot.smatestbot2           D  onFocusEvent true
-2024-09-21 11:53:40.999 17720-17720 VRI[MainActivity]       com.tradingbot.smatestbot2           W  handleResized, msg:5, frameChanged:false, configChanged:false, displayChanged:false, attachedFrameChanged:false, compatScaleChanged:false, pendingDragResizing=false
-2024-09-21 11:53:41.000 17720-17720 Quality                 com.tradingbot.smatestbot2           I  Skipped: false 3 cost 33.237713 refreshRate 8330665 bit true processName com.tradingbot.smatestbot2
-2024-09-21 11:53:41.005 17720-21383 VRI[MainActivity]       com.tradingbot.smatestbot2           D  Received frameCommittedCallback lastAttemptedDrawFrameNum=2 didProduceBuffer=true syncBuffer=false
-2024-09-21 11:53:41.006 17720-17720 VRI[MainActivity]       com.tradingbot.smatestbot2           D  draw finished.
-2024-09-21 11:53:41.006 17720-17720 VRI[MainActivity]       com.tradingbot.smatestbot2           D  reportDrawFinished
-2024-09-21 11:53:41.338 17720-21409 TrafficStats            com.tradingbot.smatestbot2           D  tagSocket(110) with statsTag=0xffffffff, statsUid=-1
-2024-09-21 11:53:41.521 17720-21345 bot.smatestbot2         com.tradingbot.smatestbot2           I  Compiler allocated 6275KB to compile void android.view.ViewRootImpl.performTraversals()
-2024-09-21 11:53:41.759 17720-21409 MainActivity            com.tradingbot.smatestbot2           D  API Response: {"accounts":[{"id":"101-001-29899550-002","tags":[]},{"id":"101-001-29899550-001","tags":[]},{"id":"101-001-29899550-003","tags":[]}]}
-2024-09-21 11:53:41.759 17720-21409 MainActivity            com.tradingbot.smatestbot2           D  Parsed Accounts: [Account{id='101-001-29899550-002', status='Stopped', alias=''}, Account{id='101-001-29899550-001', status='Stopped', alias=''}, Account{id='101-001-29899550-003', status='Stopped', alias=''}]
-2024-09-21 11:53:42.013 17720-21456 OplusScrollToTopManager com.tradingbot.smatestbot2           D  com.tradingbot.smatestbot2/com.tradingbot.smatestbot2.MainActivity,This DecorView@90fdd57[MainActivity] change focus to true
-2024-09-21 11:53:44.985 17720-17720 AutofillManager         com.tradingbot.smatestbot2           V  requestHideFillUi(null): anchor = null
-2024-09-21 11:53:45.066 17720-17720 OplusInput...erInternal com.tradingbot.smatestbot2           D  get inputMethodManager extension: com.android.internal.view.IInputMethodManager$Stub$Proxy@774943b
-2024-09-21 11:53:45.069 17720-17720 ViewRootImplExtImpl     com.tradingbot.smatestbot2           D  MotionEvent MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=243.75, y[0]=519.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=159734577, downTime=159734489, deviceId=4, source=0x1002, displayId=0, eventId=516604099 } handled by client, just return
-2024-09-21 11:53:45.084 17720-17720 Quality                 com.tradingbot.smatestbot2           I  Skipped: false 1 cost 12.581688 refreshRate 8329278 bit true processName com.tradingbot.smatestbot2
-2024-09-21 11:53:45.382 17720-21560 System.err              com.tradingbot.smatestbot2           W  java.lang.Exception: HTTP error code: 403
-2024-09-21 11:53:45.382 17720-21560 System.err              com.tradingbot.smatestbot2           W  	at com.tradingbot.smatestbot2.BaseAPI.makeRequest(BaseAPI.java:89)
-2024-09-21 11:53:45.382 17720-21560 System.err              com.tradingbot.smatestbot2           W  	at com.tradingbot.smatestbot2.OrderAPI.createOrder(OrderAPI.java:55)
-2024-09-21 11:53:45.383 17720-21560 System.err              com.tradingbot.smatestbot2           W  	at com.tradingbot.smatestbot2.TradingBot.placeOrder(TradingBot.java:115)
-2024-09-21 11:53:45.383 17720-21560 System.err              com.tradingbot.smatestbot2           W  	at com.tradingbot.smatestbot2.TradingBot.checkForCrossover(TradingBot.java:100)
-2024-09-21 11:53:45.383 17720-21560 System.err              com.tradingbot.smatestbot2           W  	at com.tradingbot.smatestbot2.TradingBot.access$300(TradingBot.java:13)
-2024-09-21 11:53:45.383 17720-21560 System.err              com.tradingbot.smatestbot2           W  	at com.tradingbot.smatestbot2.TradingBot$1.run(TradingBot.java:47)
-2024-09-21 11:53:45.383 17720-21560 System.err              com.tradingbot.smatestbot2           W  	at java.util.TimerThread.mainLoop(Timer.java:573)
-2024-09-21 11:53:45.384 17720-21560 System.err              com.tradingbot.smatestbot2           W  	at java.util.TimerThread.run(Timer.java:523)
-2024-09-21 11:53:45.385 17720-21560 System.err              com.tradingbot.smatestbot2           W  java.lang.IndexOutOfBoundsException: Index 51 out of bounds for length 51
-2024-09-21 11:53:45.385 17720-21560 System.err              com.tradingbot.smatestbot2           W  	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
-2024-09-21 11:53:45.385 17720-21560 System.err              com.tradingbot.smatestbot2           W  	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
-2024-09-21 11:53:45.386 17720-21560 System.err              com.tradingbot.smatestbot2           W  	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
-2024-09-21 11:53:45.386 17720-21560 System.err              com.tradingbot.smatestbot2           W  	at java.util.Objects.checkIndex(Objects.java:359)
-2024-09-21 11:53:45.386 17720-21560 System.err              com.tradingbot.smatestbot2           W  	at java.util.ArrayList.get(ArrayList.java:434)
-2024-09-21 11:53:45.386 17720-21560 System.err              com.tradingbot.smatestbot2           W  	at com.tradingbot.smatestbot2.TradingBot.checkForCrossover(TradingBot.java:95)
-2024-09-21 11:53:45.386 17720-21560 System.err              com.tradingbot.smatestbot2           W  	at com.tradingbot.smatestbot2.TradingBot.access$300(TradingBot.java:13)
-2024-09-21 11:53:45.386 17720-21560 System.err              com.tradingbot.smatestbot2           W  	at com.tradingbot.smatestbot2.TradingBot$1.run(TradingBot.java:47)
-2024-09-21 11:53:45.387 17720-21560 System.err              com.tradingbot.smatestbot2           W  	at java.util.TimerThread.mainLoop(Timer.java:573)
-2024-09-21 11:53:45.387 17720-21560 System.err              com.tradingbot.smatestbot2           W  	at java.util.TimerThread.run(Timer.java:523)
-2024-09-21 11:53:46.050 17720-21563 ProfileInstaller        com.tradingbot.smatestbot2           D  Installing profile for com.tradingbot.smatestbot2
-2024-09-21 11:53:46.836 17720-17720 AutofillManager         com.tradingbot.smatestbot2           V  requestHideFillUi(null): anchor = null
-2024-09-21 11:53:46.953 17720-17720 ViewRootImplExtImpl     com.tradingbot.smatestbot2           D  MotionEvent MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=197.25, y[0]=505.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=159736465, downTime=159736345, deviceId=4, source=0x1002, displayId=0, eventId=520464146 } handled by client, just return
+2024-09-21 19:46:09.888 11528-12053 AdrenoGLES-0            com.tradingbot.smatestbot2           I  Build Config                     : S P 10.0.7 AArch64
+2024-09-21 19:46:09.888 11528-12053 AdrenoGLES-0            com.tradingbot.smatestbot2           I  Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+2024-09-21 19:46:09.891 11528-12053 AdrenoGLES-0            com.tradingbot.smatestbot2           I  PFP: 0x016dc094, ME: 0x00000000
+2024-09-21 19:46:09.899 11528-12053 BufferQueueProducer     com.tradingbot.smatestbot2           D  [VRI[MainActivity]#0(BLAST Consumer)0](id:2d0800000000,api:1,p:11528,c:11528) connect: api=1 producerControlledByApp=true
+2024-09-21 19:46:09.899 11528-12053 OpenGLRenderer          com.tradingbot.smatestbot2           E  Unable to match the desired swap behavior.
+2024-09-21 19:46:09.899 11528-11528 SurfaceControl          com.tradingbot.smatestbot2           I   setExtendedRangeBrightness sc=Surface(name=com.tradingbot.smatestbot2/com.tradingbot.smatestbot2.MainActivity)/@0x71b7836,currentBufferRatio=1.0,desiredRatio=1.0
+2024-09-21 19:46:09.907 11528-12053 BLASTBufferQueue        com.tradingbot.smatestbot2           D  [VRI[MainActivity]#0](f:0,a:1) acquireNextBufferLocked size=1080x2412 mFrameNumber=1 applyTransaction=true mTimestamp=174572165118613(auto) mPendingTransactions.size=0 graphicBufferId=49512382988288 transform=0
+2024-09-21 19:46:09.908 11528-12053 VRI[MainActivity]       com.tradingbot.smatestbot2           D  Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+2024-09-21 19:46:09.908 11528-11528 VRI[MainActivity]       com.tradingbot.smatestbot2           D  draw finished.
+2024-09-21 19:46:09.908 11528-11528 VRI[MainActivity]       com.tradingbot.smatestbot2           D  reportDrawFinished
+2024-09-21 19:46:09.908 11528-11528 ViewRootImplExtImpl     com.tradingbot.smatestbot2           D  setMaxDequeuedBufferCount: 2
+2024-09-21 19:46:09.923 11528-11528 VRI[MainActivity]       com.tradingbot.smatestbot2           D  onFocusEvent true
+2024-09-21 19:46:09.923 11528-11528 VRI[MainActivity]       com.tradingbot.smatestbot2           W  handleResized, msg:5, frameChanged:false, configChanged:false, displayChanged:false, attachedFrameChanged:false, compatScaleChanged:false, pendingDragResizing=false
+2024-09-21 19:46:09.925 11528-11528 Quality                 com.tradingbot.smatestbot2           I  Skipped: false 3 cost 31.269947 refreshRate 8323919 bit true processName com.tradingbot.smatestbot2
+2024-09-21 19:46:09.928 11528-12053 VRI[MainActivity]       com.tradingbot.smatestbot2           D  Received frameCommittedCallback lastAttemptedDrawFrameNum=2 didProduceBuffer=true syncBuffer=false
+2024-09-21 19:46:09.928 11528-11528 VRI[MainActivity]       com.tradingbot.smatestbot2           D  draw finished.
+2024-09-21 19:46:09.928 11528-11528 VRI[MainActivity]       com.tradingbot.smatestbot2           D  reportDrawFinished
+2024-09-21 19:46:10.273 11528-12057 BaseAPI                 com.tradingbot.smatestbot2           D  2024-09-21 19:46:10.272 - Response code: 200
+2024-09-21 19:46:10.275 11528-12057 BaseAPI                 com.tradingbot.smatestbot2           D  2024-09-21 19:46:10.275 - Response: {"accounts":[{"id":"101-001-29899550-002","tags":[]},{"id":"101-001-29899550-001","tags":[]},{"id":"101-001-29899550-003","tags":[]}]}
+2024-09-21 19:46:10.276 11528-12057 MainActivity            com.tradingbot.smatestbot2           D  2024-09-21 19:46:10.275 - API Response: {"accounts":[{"id":"101-001-29899550-002","tags":[]},{"id":"101-001-29899550-001","tags":[]},{"id":"101-001-29899550-003","tags":[]}]}
+2024-09-21 19:46:10.277 11528-12057 MainActivity            com.tradingbot.smatestbot2           D  2024-09-21 19:46:10.277 - Parsed Account: Account{id='101-001-29899550-002', status='Stopped', alias=''}
+2024-09-21 19:46:10.278 11528-12057 MainActivity            com.tradingbot.smatestbot2           D  2024-09-21 19:46:10.277 - Parsed Account: Account{id='101-001-29899550-001', status='Stopped', alias=''}
+2024-09-21 19:46:10.278 11528-12057 MainActivity            com.tradingbot.smatestbot2           D  2024-09-21 19:46:10.278 - Parsed Account: Account{id='101-001-29899550-003', status='Stopped', alias=''}
+2024-09-21 19:46:10.279 11528-12057 MainActivity            com.tradingbot.smatestbot2           D  2024-09-21 19:46:10.278 - Parsed Accounts: [Account{id='101-001-29899550-002', status='Stopped', alias=''}, Account{id='101-001-29899550-001', status='Stopped', alias=''}, Account{id='101-001-29899550-003', status='Stopped', alias=''}]
+2024-09-21 19:46:10.291 11528-11528 AccountAdapter          com.tradingbot.smatestbot2           D  2024-09-21 19:46:10.290 - Binding account to view: Account{id='101-001-29899550-002', status='Stopped', alias=''}
+2024-09-21 19:46:10.295 11528-11528 AccountAdapter          com.tradingbot.smatestbot2           D  2024-09-21 19:46:10.294 - Binding account to view: Account{id='101-001-29899550-001', status='Stopped', alias=''}
+2024-09-21 19:46:10.298 11528-11528 AccountAdapter          com.tradingbot.smatestbot2           D  2024-09-21 19:46:10.297 - Binding account to view: Account{id='101-001-29899550-003', status='Stopped', alias=''}
+2024-09-21 19:46:10.355 11528-12030 bot.smatestbot2         com.tradingbot.smatestbot2           I  Compiler allocated 6275KB to compile void android.view.ViewRootImpl.performTraversals()
+2024-09-21 19:46:10.939 11528-12066 OplusScrollToTopManager com.tradingbot.smatestbot2           D  com.tradingbot.smatestbot2/com.tradingbot.smatestbot2.MainActivity,This DecorView@d69ccb0[MainActivity] change focus to true
+2024-09-21 19:46:14.294 11528-11528 AutofillManager         com.tradingbot.smatestbot2           V  requestHideFillUi(null): anchor = null
+2024-09-21 19:46:14.379 11528-11528 OplusInput...erInternal com.tradingbot.smatestbot2           D  get inputMethodManager extension: com.android.internal.view.IInputMethodManager$Stub$Proxy@4ee0ef7
+2024-09-21 19:46:14.383 11528-11528 ViewRootImplExtImpl     com.tradingbot.smatestbot2           D  MotionEvent MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=336.75, y[0]=470.25, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=174576634, downTime=174576538, deviceId=4, source=0x1002, displayId=0, eventId=1002390949 } handled by client, just return
+2024-09-21 19:46:14.396 11528-11528 MainActivity            com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.396 - Selected Account: Account{id='101-001-29899550-002', status='Stopped', alias=''}
+2024-09-21 19:46:14.397 11528-11528 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.397 - Starting trading for instrument: EUR_USD, accountId: 101-001-29899550-002
+2024-09-21 19:46:14.398 11528-11528 MainActivity            com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.398 - Trading started for account: 101-001-29899550-002
+2024-09-21 19:46:14.399 11528-12084 InstrumentAPI           com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.398 - Fetching candles for instrument: EUR_USD, granularity: H1, count: 100
+2024-09-21 19:46:14.399 11528-11528 Quality                 com.tradingbot.smatestbot2           I  Skipped: false 1 cost 11.071661 refreshRate 8323189 bit true processName com.tradingbot.smatestbot2
+2024-09-21 19:46:14.399 11528-12084 BaseAPI                 com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.399 - Making request to URL: https://api-fxpractice.oanda.com/v3/instruments/EUR_USD/candles?granularity=H1&count=100
+2024-09-21 19:46:14.401 11528-12084 BaseAPI                 com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.400 - Request method: GET
+2024-09-21 19:46:14.401 11528-11528 AccountAdapter          com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.401 - Binding account to view: Account{id='101-001-29899550-002', status='Running', alias=''}
+2024-09-21 19:46:14.401 11528-12084 BaseAPI                 com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.401 - Request body: null
+2024-09-21 19:46:14.403 11528-11528 AccountAdapter          com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.403 - Binding account to view: Account{id='101-001-29899550-001', status='Stopped', alias=''}
+2024-09-21 19:46:14.404 11528-11528 AccountAdapter          com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.404 - Binding account to view: Account{id='101-001-29899550-003', status='Stopped', alias=''}
+2024-09-21 19:46:14.561 11528-12084 BaseAPI                 com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.560 - Response code: 200
+2024-09-21 19:46:14.565 11528-12084 BaseAPI                 com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.565 - Response: {"instrument":"EUR_USD","granularity":"H1","candles":[{"complete":true,"volume":2902,"time":"2024-09-16T17:00:00.000000000Z","mid":{"o":"1.11290","h":"1.11298","l":"1.11162","c":"1.11234"}},{"complete":true,"volume":2919,"time":"2024-09-16T18:00:00.000000000Z","mid":{"o":"1.11236","h":"1.11244","l":"1.11198","c":"1.11209"}},{"complete":true,"volume":2618,"time":"2024-09-16T19:00:00.000000000Z","mid":{"o":"1.11210","h":"1.11298","l":"1.11187","c":"1.11290"}},{"complete":true,"volume":1239,"time":"2024-09-16T20:00:00.000000000Z","mid":{"o":"1.11290","h":"1.11337","l":"1.11280","c":"1.11326"}},{"complete":true,"volume":299,"time":"2024-09-16T21:00:00.000000000Z","mid":{"o":"1.11328","h":"1.11330","l":"1.11313","c":"1.11318"}},{"complete":true,"volume":668,"time":"2024-09-16T22:00:00.000000000Z","mid":{"o":"1.11316","h":"1.11321","l":"1.11268","c":"1.11272"}},{"complete":true,"volume":1342,"time":"2024-09-16T23:00:00.000000000Z","mid":{"o":"1.11276","h":"1.11300","l":"1.11233","c":"1.11292"}},{"complete":true,"volume":2021,"time":"2024-09-17T00:00:00.000000000Z","mid":{"o":"1.11292","h":"1.11313","l":"1.11219","c":"1.11230"}},{"complete":true,"volume":2515,"time":"2024-09-17T01:00:00.000000000Z","mid":{"o":"1.11227","h":"1.11296","l":"1.11226","c":"1.11279"}},{"complete":true,"volume":1488,"time":"2024-09-17T02:00:00.000000000Z","mid":{"o":"1.11278","h":"1.11298","l":"1.11248","c":"1.11272"}},{"complete":true,"volume":1712,"time":"2024-09-17T03:00:00.000000000Z","mid":{"o":"1.11272","h":"1.11285","l":"1.11228","c":"1.11240"}},{"complete":true,"volume":1356,"time":"2024-09-17T04:00:00.000000000Z","mid":{"o":"1.11239","h":"1.11246","l":"1.11218","c":"1.11245"}},{"complete":true,"volume":1548,"time":"2024-09-17T05:00:00.000000000Z","mid":{"o":"1.11247","h":"1.11289","l":"1.11220","c":"1.11268"}},{"complete":true,"volume":3384,"time":"2024-09-17T06:00:00.000000000Z","mid":{"o":"1.11270","h":"1.11334","l":"1.11210","c":"1.11210"}},{"complete":true,"volume":5133,"time":"2024-09-17T07:00:00.000000000Z","mid":{"o":"1.11210","h":"1.11378","l":"1.11158","c":"1.11364"}},{"complete":true,"volume":4227,"time":"2024-09-17T08:00:00.000000000Z","mid":{"o":"1.11363","h":"1.11463","l":"1.11331","c":"1.11448"}},{"complete":true,"volume":4550,"time":"2024-09-17T09:00:00.000000000Z","mid":{"o":"1.11448","h":"1.11448","l":"1.11347","c":"1.11380"}},{"complete":true,"volume":3372,"time":"2024-09-17T10:00:00.000000000Z","mid":{"o":"1.11381","h":"1.11398","l":"1.11317","c":"1.11344"}},{"complete":true,"volume":3731,"time":"2024-09-17T11:00:00.000000000Z","mid":{"o":"1.11344","h":"1.11428","l":"1.11301","c":"1.11385"}},{"complete":true,"volume":10704,"time":"2024-09-17T12:00:00.000000000Z","mid":{"o":"1.11389","h":"1.11438","l":"1.11180","c":"1.11248"}},{"complete":true,"volume":9218,"time":"2024-09-17T13:00:00.000000000Z","mid":{"o":"1.11249","h":"1.11278","l":"1.11117","c":"1.11132"}},{"complete":true,"volume":8474,"time":"2024-09-17T14:00:00.000000000Z","mid":{"o":"1.11134","h":"1.11282","l":"1.11133","c":"1.11246"}},{"complete":true,"volume":5599,"time":"2024-09-17T15:00:00.000000000Z","mid":{"o":"1.11248","h":"1.11263","l":"1.11152","c":"1.11174"}},{"complete":true,"volume":5291,"time":"2024-09-17T16:00:00.000000000Z","mid":{"o":"1.11173","h":"1.11217","l":"1.11151","c":"1.11194"}},{"complete":true,"volume":5259,"time":"2024-09-17T17:00:00.000000000Z","mid":{"o":"1.11192","h":"1.11208","l":"1.11107","c":"1.11162"}},{"complete":true,"volume":4787,"time":"2024-09-17T18:00:00.000000000Z","mid":{"o":"1.11160","h":"1.11226","l":"1.11154","c":"1.11222"}},{"complete":true,"volume":4043,"time":"2024-09-17T19:00:00.000000000Z","mid":{"o":"1.11224","h":"1.11236","l":"1.11149","c":"1.11158"}},{"complete":true,"volume":1696,"time":"2024-09-17T20:00:00.000000000Z","mid":{"o":"1.11161","h":"1.11168","l":"1.11126","c":"1.11140"}},{"complete":true,"volume":465,"time":"2024-09-17T21:00:00.000000000Z","mid":{"o":"1.11150","h":"1.11169","l":"1.11137","c":"1.11140"}},{"complete":true,"volume":
+2024-09-21 19:46:14.567 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.566 - Fetched historical price data: {"instrument":"EUR_USD","granularity":"H1","candles":[{"complete":true,"volume":2902,"time":"2024-09-16T17:00:00.000000000Z","mid":{"o":"1.11290","h":"1.11298","l":"1.11162","c":"1.11234"}},{"complete":true,"volume":2919,"time":"2024-09-16T18:00:00.000000000Z","mid":{"o":"1.11236","h":"1.11244","l":"1.11198","c":"1.11209"}},{"complete":true,"volume":2618,"time":"2024-09-16T19:00:00.000000000Z","mid":{"o":"1.11210","h":"1.11298","l":"1.11187","c":"1.11290"}},{"complete":true,"volume":1239,"time":"2024-09-16T20:00:00.000000000Z","mid":{"o":"1.11290","h":"1.11337","l":"1.11280","c":"1.11326"}},{"complete":true,"volume":299,"time":"2024-09-16T21:00:00.000000000Z","mid":{"o":"1.11328","h":"1.11330","l":"1.11313","c":"1.11318"}},{"complete":true,"volume":668,"time":"2024-09-16T22:00:00.000000000Z","mid":{"o":"1.11316","h":"1.11321","l":"1.11268","c":"1.11272"}},{"complete":true,"volume":1342,"time":"2024-09-16T23:00:00.000000000Z","mid":{"o":"1.11276","h":"1.11300","l":"1.11233","c":"1.11292"}},{"complete":true,"volume":2021,"time":"2024-09-17T00:00:00.000000000Z","mid":{"o":"1.11292","h":"1.11313","l":"1.11219","c":"1.11230"}},{"complete":true,"volume":2515,"time":"2024-09-17T01:00:00.000000000Z","mid":{"o":"1.11227","h":"1.11296","l":"1.11226","c":"1.11279"}},{"complete":true,"volume":1488,"time":"2024-09-17T02:00:00.000000000Z","mid":{"o":"1.11278","h":"1.11298","l":"1.11248","c":"1.11272"}},{"complete":true,"volume":1712,"time":"2024-09-17T03:00:00.000000000Z","mid":{"o":"1.11272","h":"1.11285","l":"1.11228","c":"1.11240"}},{"complete":true,"volume":1356,"time":"2024-09-17T04:00:00.000000000Z","mid":{"o":"1.11239","h":"1.11246","l":"1.11218","c":"1.11245"}},{"complete":true,"volume":1548,"time":"2024-09-17T05:00:00.000000000Z","mid":{"o":"1.11247","h":"1.11289","l":"1.11220","c":"1.11268"}},{"complete":true,"volume":3384,"time":"2024-09-17T06:00:00.000000000Z","mid":{"o":"1.11270","h":"1.11334","l":"1.11210","c":"1.11210"}},{"complete":true,"volume":5133,"time":"2024-09-17T07:00:00.000000000Z","mid":{"o":"1.11210","h":"1.11378","l":"1.11158","c":"1.11364"}},{"complete":true,"volume":4227,"time":"2024-09-17T08:00:00.000000000Z","mid":{"o":"1.11363","h":"1.11463","l":"1.11331","c":"1.11448"}},{"complete":true,"volume":4550,"time":"2024-09-17T09:00:00.000000000Z","mid":{"o":"1.11448","h":"1.11448","l":"1.11347","c":"1.11380"}},{"complete":true,"volume":3372,"time":"2024-09-17T10:00:00.000000000Z","mid":{"o":"1.11381","h":"1.11398","l":"1.11317","c":"1.11344"}},{"complete":true,"volume":3731,"time":"2024-09-17T11:00:00.000000000Z","mid":{"o":"1.11344","h":"1.11428","l":"1.11301","c":"1.11385"}},{"complete":true,"volume":10704,"time":"2024-09-17T12:00:00.000000000Z","mid":{"o":"1.11389","h":"1.11438","l":"1.11180","c":"1.11248"}},{"complete":true,"volume":9218,"time":"2024-09-17T13:00:00.000000000Z","mid":{"o":"1.11249","h":"1.11278","l":"1.11117","c":"1.11132"}},{"complete":true,"volume":8474,"time":"2024-09-17T14:00:00.000000000Z","mid":{"o":"1.11134","h":"1.11282","l":"1.11133","c":"1.11246"}},{"complete":true,"volume":5599,"time":"2024-09-17T15:00:00.000000000Z","mid":{"o":"1.11248","h":"1.11263","l":"1.11152","c":"1.11174"}},{"complete":true,"volume":5291,"time":"2024-09-17T16:00:00.000000000Z","mid":{"o":"1.11173","h":"1.11217","l":"1.11151","c":"1.11194"}},{"complete":true,"volume":5259,"time":"2024-09-17T17:00:00.000000000Z","mid":{"o":"1.11192","h":"1.11208","l":"1.11107","c":"1.11162"}},{"complete":true,"volume":4787,"time":"2024-09-17T18:00:00.000000000Z","mid":{"o":"1.11160","h":"1.11226","l":"1.11154","c":"1.11222"}},{"complete":true,"volume":4043,"time":"2024-09-17T19:00:00.000000000Z","mid":{"o":"1.11224","h":"1.11236","l":"1.11149","c":"1.11158"}},{"complete":true,"volume":1696,"time":"2024-09-17T20:00:00.000000000Z","mid":{"o":"1.11161","h":"1.11168","l":"1.11126","c":"1.11140"}},{"complete":true,"volume":465,"time":"2024-09-17T21:00:00.000000000Z","mid":{"o":"1.11150","h":"1.11169","l":"1.11137","c":"1.11140"}},{"
+2024-09-21 19:46:14.575 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.574 - Parsed price: 1.11234
+2024-09-21 19:46:14.576 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.575 - Parsed price: 1.11209
+2024-09-21 19:46:14.577 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.576 - Parsed price: 1.1129
+2024-09-21 19:46:14.578 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.577 - Parsed price: 1.11326
+2024-09-21 19:46:14.579 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.578 - Parsed price: 1.11318
+2024-09-21 19:46:14.580 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.579 - Parsed price: 1.11272
+2024-09-21 19:46:14.581 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.580 - Parsed price: 1.11292
+2024-09-21 19:46:14.581 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.581 - Parsed price: 1.1123
+2024-09-21 19:46:14.582 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.582 - Parsed price: 1.11279
+2024-09-21 19:46:14.583 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.583 - Parsed price: 1.11272
+2024-09-21 19:46:14.584 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.584 - Parsed price: 1.1124
+2024-09-21 19:46:14.585 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.585 - Parsed price: 1.11245
+2024-09-21 19:46:14.586 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.585 - Parsed price: 1.11268
+2024-09-21 19:46:14.587 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.586 - Parsed price: 1.1121
+2024-09-21 19:46:14.587 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.587 - Parsed price: 1.11364
+2024-09-21 19:46:14.587 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.587 - Parsed price: 1.11448
+2024-09-21 19:46:14.588 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.588 - Parsed price: 1.1138
+2024-09-21 19:46:14.588 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.588 - Parsed price: 1.11344
+2024-09-21 19:46:14.589 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.588 - Parsed price: 1.11385
+2024-09-21 19:46:14.589 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.589 - Parsed price: 1.11248
+2024-09-21 19:46:14.589 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.589 - Parsed price: 1.11132
+2024-09-21 19:46:14.590 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.590 - Parsed price: 1.11246
+2024-09-21 19:46:14.590 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.590 - Parsed price: 1.11174
+2024-09-21 19:46:14.591 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.590 - Parsed price: 1.11194
+2024-09-21 19:46:14.591 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.591 - Parsed price: 1.11162
+2024-09-21 19:46:14.591 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.591 - Parsed price: 1.11222
+2024-09-21 19:46:14.592 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.591 - Parsed price: 1.11158
+2024-09-21 19:46:14.592 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.592 - Parsed price: 1.1114
+2024-09-21 19:46:14.592 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.592 - Parsed price: 1.1114
+2024-09-21 19:46:14.593 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.592 - Parsed price: 1.11182
+2024-09-21 19:46:14.593 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.593 - Parsed price: 1.11222
+2024-09-21 19:46:14.593 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.593 - Parsed price: 1.1127
+2024-09-21 19:46:14.594 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.593 - Parsed price: 1.11278
+2024-09-21 19:46:14.595 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.594 - Parsed price: 1.1128
+2024-09-21 19:46:14.595 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.595 - Parsed price: 1.11263
+2024-09-21 19:46:14.596 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.595 - Parsed price: 1.11201
+2024-09-21 19:46:14.596 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.596 - Parsed price: 1.11206
+2024-09-21 19:46:14.597 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.596 - Parsed price: 1.11187
+2024-09-21 19:46:14.597 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.597 - Parsed price: 1.11312
+2024-09-21 19:46:14.598 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.598 - Parsed price: 1.11298
+2024-09-21 19:46:14.599 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.598 - Parsed price: 1.11382
+2024-09-21 19:46:14.599 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.599 - Parsed price: 1.113
+2024-09-21 19:46:14.600 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.599 - Parsed price: 1.11245
+2024-09-21 19:46:14.600 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.600 - Parsed price: 1.11222
+2024-09-21 19:46:14.601 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.600 - Parsed price: 1.11354
+2024-09-21 19:46:14.601 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.601 - Parsed price: 1.11181
+2024-09-21 19:46:14.602 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.602 - Parsed price: 1.11158
+2024-09-21 19:46:14.603 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.602 - Parsed price: 1.11242
+2024-09-21 19:46:14.603 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.603 - Parsed price: 1.1127
+2024-09-21 19:46:14.603 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.603 - Parsed price: 1.11489
+2024-09-21 19:46:14.603 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.603 - Parsed price: 1.11057
+2024-09-21 19:46:14.604 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.604 - Parsed price: 1.11177
+2024-09-21 19:46:14.604 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.604 - Parsed price: 1.11168
+2024-09-21 19:46:14.604 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.604 - Parsed price: 1.11218
+2024-09-21 19:46:14.605 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.604 - Parsed price: 1.1114
+2024-09-21 19:46:14.605 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.605 - Parsed price: 1.10815
+2024-09-21 19:46:14.605 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.605 - Parsed price: 1.10833
+2024-09-21 19:46:14.606 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.605 - Parsed price: 1.11018
+2024-09-21 19:46:14.606 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.606 - Parsed price: 1.11186
+2024-09-21 19:46:14.606 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.606 - Parsed price: 1.11202
+2024-09-21 19:46:14.607 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.606 - Parsed price: 1.1131
+2024-09-21 19:46:14.607 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.607 - Parsed price: 1.11453
+2024-09-21 19:46:14.607 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.607 - Parsed price: 1.1146
+2024-09-21 19:46:14.608 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.607 - Parsed price: 1.11628
+2024-09-21 19:46:14.608 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.608 - Parsed price: 1.11778
+2024-09-21 19:46:14.608 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.608 - Parsed price: 1.11704
+2024-09-21 19:46:14.608 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.608 - Parsed price: 1.1158
+2024-09-21 19:46:14.609 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.608 - Parsed price: 1.11259
+2024-09-21 19:46:14.609 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.609 - Parsed price: 1.1122
+2024-09-21 19:46:14.609 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.609 - Parsed price: 1.11293
+2024-09-21 19:46:14.610 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.609 - Parsed price: 1.11468
+2024-09-21 19:46:14.610 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.610 - Parsed price: 1.11556
+2024-09-21 19:46:14.611 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.610 - Parsed price: 1.11606
+2024-09-21 19:46:14.611 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.611 - Parsed price: 1.11655
+2024-09-21 19:46:14.611 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.611 - Parsed price: 1.11622
+2024-09-21 19:46:14.612 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.611 - Parsed price: 1.11616
+2024-09-21 19:46:14.612 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.612 - Parsed price: 1.1162
+2024-09-21 19:46:14.612 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.612 - Parsed price: 1.11609
+2024-09-21 19:46:14.612 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.612 - Parsed price: 1.11596
+2024-09-21 19:46:14.613 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.613 - Parsed price: 1.11604
+2024-09-21 19:46:14.613 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.613 - Parsed price: 1.11592
+2024-09-21 19:46:14.613 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.613 - Parsed price: 1.11614
+2024-09-21 19:46:14.614 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.613 - Parsed price: 1.11658
+2024-09-21 19:46:14.614 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.614 - Parsed price: 1.1165
+2024-09-21 19:46:14.614 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.614 - Parsed price: 1.1164
+2024-09-21 19:46:14.614 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.614 - Parsed price: 1.11764
+2024-09-21 19:46:14.615 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.614 - Parsed price: 1.11628
+2024-09-21 19:46:14.615 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.615 - Parsed price: 1.11644
+2024-09-21 19:46:14.615 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.615 - Parsed price: 1.11609
+2024-09-21 19:46:14.615 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.615 - Parsed price: 1.11592
+2024-09-21 19:46:14.616 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.616 - Parsed price: 1.11616
+2024-09-21 19:46:14.616 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.616 - Parsed price: 1.11744
+2024-09-21 19:46:14.616 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.616 - Parsed price: 1.11547
+2024-09-21 19:46:14.617 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.616 - Parsed price: 1.11439
+2024-09-21 19:46:14.617 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.617 - Parsed price: 1.1159
+2024-09-21 19:46:14.617 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.617 - Parsed price: 1.11738
+2024-09-21 19:46:14.617 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.617 - Parsed price: 1.11592
+2024-09-21 19:46:14.618 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.617 - Parsed price: 1.11651
+2024-09-21 19:46:14.618 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.618 - Parsed price: 1.1162
+2024-09-21 19:46:14.618 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.618 - Parsed price: 1.11636
+2024-09-21 19:46:14.618 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.618 - Calculated SMA: 1.112722
+2024-09-21 19:46:14.619 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.619 - Calculated SMA: 1.112728
+2024-09-21 19:46:14.619 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.619 - Calculated SMA: 1.1127639999999999
+2024-09-21 19:46:14.619 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.619 - Calculated SMA: 1.112742
+2024-09-21 19:46:14.620 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.619 - Calculated SMA: 1.112626
+2024-09-21 19:46:14.620 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.620 - Calculated SMA: 1.1126719999999999
+2024-09-21 19:46:14.620 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.620 - Calculated SMA: 1.112848
+2024-09-21 19:46:14.620 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.620 - Calculated SMA: 1.112936
+2024-09-21 19:46:14.620 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.620 - Calculated SMA: 1.1130499999999999
+2024-09-21 19:46:14.621 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.621 - Calculated SMA: 1.1131559999999998
+2024-09-21 19:46:14.621 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.621 - Calculated SMA: 1.1131319999999998
+2024-09-21 19:46:14.621 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.621 - Calculated SMA: 1.113024
+2024-09-21 19:46:14.622 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.621 - Calculated SMA: 1.113025
+2024-09-21 19:46:14.622 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.622 - Calculated SMA: 1.1129310000000001
+2024-09-21 19:46:14.622 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.622 - Calculated SMA: 1.1129149999999999
+2024-09-21 19:46:14.622 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.622 - Calculated SMA: 1.1127129999999998
+2024-09-21 19:46:14.623 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.622 - Calculated SMA: 1.1124870000000002
+2024-09-21 19:46:14.623 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.623 - Calculated SMA: 1.112265
+2024-09-21 19:46:14.623 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.623 - Calculated SMA: 1.1120610000000002
+2024-09-21 19:46:14.623 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.623 - Calculated SMA: 1.111816
+2024-09-21 19:46:14.624 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.624 - Calculated SMA: 1.11175
+2024-09-21 19:46:14.624 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.624 - Calculated SMA: 1.11184
+2024-09-21 19:46:14.624 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.624 - Calculated SMA: 1.1118640000000002
+2024-09-21 19:46:14.624 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.624 - Calculated SMA: 1.111968
+2024-09-21 19:46:14.625 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.625 - Calculated SMA: 1.112054
+2024-09-21 19:46:14.625 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.625 - Calculated SMA: 1.112155
+2024-09-21 19:46:14.625 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.625 - Calculated SMA: 1.1121339999999997
+2024-09-21 19:46:14.626 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.625 - Calculated SMA: 1.112182
+2024-09-21 19:46:14.626 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.626 - Calculated SMA: 1.112229
+2024-09-21 19:46:14.626 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.626 - Calculated SMA: 1.112401
+2024-09-21 19:46:14.627 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.627 - Calculated SMA: 1.112517
+2024-09-21 19:46:14.627 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.627 - Calculated SMA: 1.1126770000000001
+2024-09-21 19:46:14.627 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.627 - Calculated SMA: 1.112707
+2024-09-21 19:46:14.627 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.627 - Calculated SMA: 1.1126740000000002
+2024-09-21 19:46:14.627 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.627 - Calculated SMA: 1.1126160000000003
+2024-09-21 19:46:14.628 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.627 - Calculated SMA: 1.112707
+2024-09-21 19:46:14.628 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.628 - Calculated SMA: 1.112687
+2024-09-21 19:46:14.628 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.628 - Calculated SMA: 1.1126390000000002
+2024-09-21 19:46:14.628 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.628 - Calculated SMA: 1.112694
+2024-09-21 19:46:14.628 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.628 - Calculated SMA: 1.112652
+2024-09-21 19:46:14.628 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.628 - Calculated SMA: 1.1128430000000002
+2024-09-21 19:46:14.629 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.628 - Calculated SMA: 1.1125180000000001
+2024-09-21 19:46:14.629 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.629 - Calculated SMA: 1.112395
+2024-09-21 19:46:14.629 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.629 - Calculated SMA: 1.1123180000000001
+2024-09-21 19:46:14.629 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.629 - Calculated SMA: 1.112314
+2024-09-21 19:46:14.629 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.629 - Calculated SMA: 1.1121
+2024-09-21 19:46:14.629 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.629 - Calculated SMA: 1.111734
+2024-09-21 19:46:14.630 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.630 - Calculated SMA: 1.111409
+2024-09-21 19:46:14.630 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.630 - Calculated SMA: 1.111185
+2024-09-21 19:46:14.630 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.630 - Calculated SMA: 1.1111010000000001
+2024-09-21 19:46:14.630 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.630 - Calculated SMA: 1.110814
+2024-09-21 19:46:14.630 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.630 - Calculated SMA: 1.1110669999999998
+2024-09-21 19:46:14.631 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.630 - Calculated SMA: 1.111343
+2024-09-21 19:46:14.631 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.631 - Calculated SMA: 1.1116350000000002
+2024-09-21 19:46:14.631 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.631 - Calculated SMA: 1.112045
+2024-09-21 19:46:14.631 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.631 - Calculated SMA: 1.112683
+2024-09-21 19:46:14.631 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.631 - Calculated SMA: 1.113572
+2024-09-21 19:46:14.631 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.631 - Calculated SMA: 1.114319
+2024-09-21 19:46:14.632 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.631 - Calculated SMA: 1.1145600000000002
+2024-09-21 19:46:14.632 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.632 - Calculated SMA: 1.1145939999999999
+2024-09-21 19:46:14.632 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.632 - Calculated SMA: 1.1146850000000001
+2024-09-21 19:46:14.632 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.632 - Calculated SMA: 1.114843
+2024-09-21 19:46:14.632 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.632 - Calculated SMA: 1.1149460000000002
+2024-09-21 19:46:14.632 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.632 - Calculated SMA: 1.115092
+2024-09-21 19:46:14.633 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.632 - Calculated SMA: 1.115119
+2024-09-21 19:46:14.633 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.633 - Calculated SMA: 1.114963
+2024-09-21 19:46:14.633 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.633 - Calculated SMA: 1.114875
+2024-09-21 19:46:14.633 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.633 - Calculated SMA: 1.1149150000000003
+2024-09-21 19:46:14.633 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.633 - Calculated SMA: 1.1152650000000002
+2024-09-21 19:46:14.633 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.633 - Calculated SMA: 1.1156409999999999
+2024-09-21 19:46:14.634 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.633 - Calculated SMA: 1.115952
+2024-09-21 19:46:14.634 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.634 - Calculated SMA: 1.116076
+2024-09-21 19:46:14.634 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.634 - Calculated SMA: 1.1161340000000002
+2024-09-21 19:46:14.635 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.634 - Calculated SMA: 1.1161860000000001
+2024-09-21 19:46:14.635 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.635 - Calculated SMA: 1.116181
+2024-09-21 19:46:14.635 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.635 - Calculated SMA: 1.116199
+2024-09-21 19:46:14.635 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.635 - Calculated SMA: 1.116347
+2024-09-21 19:46:14.636 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.635 - Calculated SMA: 1.116355
+2024-09-21 19:46:14.636 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.636 - Calculated SMA: 1.11639
+2024-09-21 19:46:14.636 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.636 - Calculated SMA: 1.116403
+2024-09-21 19:46:14.636 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.636 - Calculated SMA: 1.1163910000000001
+2024-09-21 19:46:14.636 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.636 - Calculated SMA: 1.116415
+2024-09-21 19:46:14.636 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.636 - Calculated SMA: 1.1165450000000001
+2024-09-21 19:46:14.637 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.636 - Calculated SMA: 1.116434
+2024-09-21 19:46:14.637 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.637 - Calculated SMA: 1.116223
+2024-09-21 19:46:14.637 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.637 - Calculated SMA: 1.116173
+2024-09-21 19:46:14.637 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.637 - Calculated SMA: 1.1161470000000002
+2024-09-21 19:46:14.637 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.637 - Calculated SMA: 1.116111
+2024-09-21 19:46:14.637 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.637 - Calculated SMA: 1.116118
+2024-09-21 19:46:14.638 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.637 - Calculated SMA: 1.1161290000000001
+2024-09-21 19:46:14.638 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.638 - Calculated SMA: 1.1161729999999999
+2024-09-21 19:46:14.638 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.638 - Calculated SMA: 1.1125928
+2024-09-21 19:46:14.638 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.638 - Calculated SMA: 1.1125574
+2024-09-21 19:46:14.638 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.638 - Calculated SMA: 1.112551
+2024-09-21 19:46:14.639 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.638 - Calculated SMA: 1.1125266000000003
+2024-09-21 19:46:14.639 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.639 - Calculated SMA: 1.1125050000000003
+2024-09-21 19:46:14.639 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.639 - Calculated SMA: 1.1124694000000004
+2024-09-21 19:46:14.639 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.639 - Calculated SMA: 1.1123780000000003
+2024-09-21 19:46:14.639 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.639 - Calculated SMA: 1.1122862000000002
+2024-09-21 19:46:14.639 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.639 - Calculated SMA: 1.1122438000000003
+2024-09-21 19:46:14.640 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.639 - Calculated SMA: 1.1122252000000004
+2024-09-21 19:46:14.640 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.640 - Calculated SMA: 1.1122112000000002
+2024-09-21 19:46:14.640 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.640 - Calculated SMA: 1.1122252000000004
+2024-09-21 19:46:14.640 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.640 - Calculated SMA: 1.1122668000000004
+2024-09-21 19:46:14.640 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.640 - Calculated SMA: 1.1123052000000007
+2024-09-21 19:46:14.640 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.640 - Calculated SMA: 1.1123888000000006
+2024-09-21 19:46:14.641 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.641 - Calculated SMA: 1.1124716000000003
+2024-09-21 19:46:14.641 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.641 - Calculated SMA: 1.1125228000000005
+2024-09-21 19:46:14.641 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.641 - Calculated SMA: 1.1125628000000005
+2024-09-21 19:46:14.641 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.641 - Calculated SMA: 1.1125458000000004
+2024-09-21 19:46:14.641 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.641 - Calculated SMA: 1.1125128000000004
+2024-09-21 19:46:14.641 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.641 - Calculated SMA: 1.1125218000000006
+2024-09-21 19:46:14.642 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.642 - Calculated SMA: 1.1125890000000005
+2024-09-21 19:46:14.642 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.642 - Calculated SMA: 1.1126510000000005
+2024-09-21 19:46:14.642 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.642 - Calculated SMA: 1.1127374000000005
+2024-09-21 19:46:14.642 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.642 - Calculated SMA: 1.1128296000000004
+2024-09-21 19:46:14.643 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.643 - Calculated SMA: 1.1129216000000002
+2024-09-21 19:46:14.643 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.643 - Calculated SMA: 1.1130004000000002
+2024-09-21 19:46:14.643 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.643 - Calculated SMA: 1.1130928000000002
+2024-09-21 19:46:14.643 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.643 - Calculated SMA: 1.1131866000000001
+2024-09-21 19:46:14.643 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.643 - Calculated SMA: 1.1132778
+2024-09-21 19:46:14.644 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.644 - Calculated SMA: 1.1133622
+2024-09-21 19:46:14.644 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.644 - Calculated SMA: 1.1134362
+2024-09-21 19:46:14.644 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.644 - Calculated SMA: 1.1135050000000002
+2024-09-21 19:46:14.644 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.644 - Calculated SMA: 1.1135810000000002
+2024-09-21 19:46:14.645 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.644 - Calculated SMA: 1.113655
+2024-09-21 19:46:14.645 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.645 - Calculated SMA: 1.1137304
+2024-09-21 19:46:14.645 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.645 - Calculated SMA: 1.113843
+2024-09-21 19:46:14.645 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.645 - Calculated SMA: 1.1139274
+2024-09-21 19:46:14.645 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.645 - Calculated SMA: 1.1140187999999998
+2024-09-21 19:46:14.646 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.645 - Calculated SMA: 1.1140781999999998
+2024-09-21 19:46:14.646 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.646 - Calculated SMA: 1.114137
+2024-09-21 19:46:14.646 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.646 - Calculated SMA: 1.1141838
+2024-09-21 19:46:14.646 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.646 - Calculated SMA: 1.1142726
+2024-09-21 19:46:14.646 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.646 - Calculated SMA: 1.1143330000000002
+2024-09-21 19:46:14.647 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.646 - Calculated SMA: 1.1143764
+2024-09-21 19:46:14.647 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.647 - Calculated SMA: 1.1144236
+2024-09-21 19:46:14.647 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.647 - Calculated SMA: 1.1145350000000003
+2024-09-21 19:46:14.647 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.647 - Calculated SMA: 1.1146218
+2024-09-21 19:46:14.647 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.647 - Calculated SMA: 1.1147036000000001
+2024-09-21 19:46:14.648 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.648 - Calculated SMA: 1.1147736000000001
+2024-09-21 19:46:14.648 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.648 - Calculated SMA: 1.114803
+2024-09-21 19:46:14.649 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.648 - Calculated short-term SMA: [1.112722, 1.112728, 1.1127639999999999, 1.112742, 1.112626, 1.1126719999999999, 1.112848, 1.112936, 1.1130499999999999, 1.1131559999999998, 1.1131319999999998, 1.113024, 1.113025, 1.1129310000000001, 1.1129149999999999, 1.1127129999999998, 1.1124870000000002, 1.112265, 1.1120610000000002, 1.111816, 1.11175, 1.11184, 1.1118640000000002, 1.111968, 1.112054, 1.112155, 1.1121339999999997, 1.112182, 1.112229, 1.112401, 1.112517, 1.1126770000000001, 1.112707, 1.1126740000000002, 1.1126160000000003, 1.112707, 1.112687, 1.1126390000000002, 1.112694, 1.112652, 1.1128430000000002, 1.1125180000000001, 1.112395, 1.1123180000000001, 1.112314, 1.1121, 1.111734, 1.111409, 1.111185, 1.1111010000000001, 1.110814, 1.1110669999999998, 1.111343, 1.1116350000000002, 1.112045, 1.112683, 1.113572, 1.114319, 1.1145600000000002, 1.1145939999999999, 1.1146850000000001, 1.114843, 1.1149460000000002, 1.115092, 1.115119, 1.114963, 1.114875, 1.1149150000000003, 1.1152650000000002, 1.1156409999999999, 1.115952, 1.116076, 1.1161340000000002, 1.1161860000000001, 1.116181, 1.116199, 1.116347, 1.116355, 1.11639, 1.116403, 1.1163910000000001, 1.116415, 1.1165450000000001, 1.116434, 1.116223, 1.116173, 1.1161470000000002, 1.116111, 1.116118, 1.1161290000000001, 1.1161729999999999]
+2024-09-21 19:46:14.649 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.649 - Calculated long-term SMA: [1.1125928, 1.1125574, 1.112551, 1.1125266000000003, 1.1125050000000003, 1.1124694000000004, 1.1123780000000003, 1.1122862000000002, 1.1122438000000003, 1.1122252000000004, 1.1122112000000002, 1.1122252000000004, 1.1122668000000004, 1.1123052000000007, 1.1123888000000006, 1.1124716000000003, 1.1125228000000005, 1.1125628000000005, 1.1125458000000004, 1.1125128000000004, 1.1125218000000006, 1.1125890000000005, 1.1126510000000005, 1.1127374000000005, 1.1128296000000004, 1.1129216000000002, 1.1130004000000002, 1.1130928000000002, 1.1131866000000001, 1.1132778, 1.1133622, 1.1134362, 1.1135050000000002, 1.1135810000000002, 1.113655, 1.1137304, 1.113843, 1.1139274, 1.1140187999999998, 1.1140781999999998, 1.114137, 1.1141838, 1.1142726, 1.1143330000000002, 1.1143764, 1.1144236, 1.1145350000000003, 1.1146218, 1.1147036000000001, 1.1147736000000001, 1.114803]
+2024-09-21 19:46:14.650 11528-12084 BaseAPI                 com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.649 - Making request to URL: https://api-fxpractice.oanda.com/v3/accounts/101-001-29899550-002/orders
+2024-09-21 19:46:14.650 11528-12084 BaseAPI                 com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.650 - Request method: POST
+2024-09-21 19:46:14.650 11528-12084 BaseAPI                 com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.650 - Request body: {"order":{"instrument":"EUR_USD","units":-100,"type":"MARKET","timeInForce":"FOK","positionFill":"DEFAULT"}}
+2024-09-21 19:46:14.837 11528-12084 BaseAPI                 com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.837 - Response code: 403
+2024-09-21 19:46:14.839 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.838 - Error placing order: HTTP error code: 403
+2024-09-21 19:46:14.841 11528-12084 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:14.840 - Error: Index 51 out of bounds for length 51
+2024-09-21 19:46:14.842 11528-12084 System.err              com.tradingbot.smatestbot2           W  java.lang.IndexOutOfBoundsException: Index 51 out of bounds for length 51
+2024-09-21 19:46:14.842 11528-12084 System.err              com.tradingbot.smatestbot2           W  	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+2024-09-21 19:46:14.843 11528-12084 System.err              com.tradingbot.smatestbot2           W  	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+2024-09-21 19:46:14.843 11528-12084 System.err              com.tradingbot.smatestbot2           W  	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+2024-09-21 19:46:14.843 11528-12084 System.err              com.tradingbot.smatestbot2           W  	at java.util.Objects.checkIndex(Objects.java:359)
+2024-09-21 19:46:14.843 11528-12084 System.err              com.tradingbot.smatestbot2           W  	at java.util.ArrayList.get(ArrayList.java:434)
+2024-09-21 19:46:14.844 11528-12084 System.err              com.tradingbot.smatestbot2           W  	at com.tradingbot.smatestbot2.TradingBot.checkForCrossover(TradingBot.java:109)
+2024-09-21 19:46:14.844 11528-12084 System.err              com.tradingbot.smatestbot2           W  	at com.tradingbot.smatestbot2.TradingBot.access$400(TradingBot.java:18)
+2024-09-21 19:46:14.844 11528-12084 System.err              com.tradingbot.smatestbot2           W  	at com.tradingbot.smatestbot2.TradingBot$1.run(TradingBot.java:57)
+2024-09-21 19:46:14.844 11528-12084 System.err              com.tradingbot.smatestbot2           W  	at java.util.TimerThread.mainLoop(Timer.java:573)
+2024-09-21 19:46:14.844 11528-12084 System.err              com.tradingbot.smatestbot2           W  	at java.util.TimerThread.run(Timer.java:523)
+2024-09-21 19:46:15.379 11528-12091 ProfileInstaller        com.tradingbot.smatestbot2           D  Installing profile for com.tradingbot.smatestbot2
+2024-09-21 19:46:17.848 11528-11528 AutofillManager         com.tradingbot.smatestbot2           V  requestHideFillUi(null): anchor = null
+2024-09-21 19:46:17.928 11528-11528 ViewRootImplExtImpl     com.tradingbot.smatestbot2           D  MotionEvent MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=332.25, y[0]=534.75, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=174580181, downTime=174580102, deviceId=4, source=0x1002, displayId=0, eventId=645352747 } handled by client, just return
+2024-09-21 19:46:17.935 11528-11528 MainActivity            com.tradingbot.smatestbot2           D  2024-09-21 19:46:17.934 - Selected Account: Account{id='101-001-29899550-002', status='Running', alias=''}
+2024-09-21 19:46:17.936 11528-11528 TradingBot              com.tradingbot.smatestbot2           D  2024-09-21 19:46:17.935 - Stopped trading
+2024-09-21 19:46:17.937 11528-11528 MainActivity            com.tradingbot.smatestbot2           D  2024-09-21 19:46:17.936 - Trading stopped for account: 101-001-29899550-002
+2024-09-21 19:46:17.942 11528-11528 AccountAdapter          com.tradingbot.smatestbot2           D  2024-09-21 19:46:17.941 - Binding account to view: Account{id='101-001-29899550-002', status='Stopped', alias=''}
+2024-09-21 19:46:17.944 11528-11528 AccountAdapter          com.tradingbot.smatestbot2           D  2024-09-21 19:46:17.944 - Binding account to view: Account{id='101-001-29899550-001', status='Stopped', alias=''}
+2024-09-21 19:46:17.946 11528-11528 AccountAdapter          com.tradingbot.smatestbot2           D  2024-09-21 19:46:17.946 - Binding account to view: Account{id='101-001-29899550-003', status='Stopped', alias=''}
+2024-09-21 19:46:24.974 11528-11528 ScrollOpti...neManager] com.tradingbot.smatestbot2           D  updateCurrentActivity: mCurrentActivityName=null, isOptEnable=true, isAnimAheadEnable=true, isFrameInsertEnable=true, InsertNum=1, isEnabledForScrollChanged=false
+2024-09-21 19:46:24.979 11528-11528 VRI[MainActivity]       com.tradingbot.smatestbot2           D  onFocusEvent false
+2024-09-21 19:46:25.064 11528-12036 VRI[MainActivity]       com.tradingbot.smatestbot2           D  dispatchAppVisibility visible:false
+2024-09-21 19:46:25.067 11528-11528 OpenGLRenderer          com.tradingbot.smatestbot2           D  RenderProxy::destroy: this=0xb40000774b41d180, mContext=0xb40000774aeda580
+2024-09-21 19:46:25.067 11528-12053 OpenGLRenderer          com.tradingbot.smatestbot2           D  SkiaOpenGLPipeline::setSurface: this=0xb40000774aec4280, surface=NULL
+2024-09-21 19:46:25.067 11528-12053 BufferQueueProducer     com.tradingbot.smatestbot2           D  [VRI[MainActivity]#0(BLAST Consumer)0](id:2d0800000000,api:1,p:11528,c:11528) disconnect: api 1
+2024-09-21 19:46:25.068 11528-11528 ViewRootImplExtImpl     com.tradingbot.smatestbot2           D  wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=360, relayoutAsync=false, newFlags=23592960, title=com.tradingbot.smatestbot2/com.tradingbot.smatestbot2.MainActivity
+2024-09-21 19:46:25.072 11528-11528 VRI[MainActivity]       com.tradingbot.smatestbot2           D  relayoutWindow result, sizeChanged:false, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(1080, 2412), mLastSurfaceSize:Point(1080, 2412), mWidth:1080, mHeight:2412, requestedWidth:1080, requestedHeight:2412, transformHint:0, lastTransformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:false, attr.flag:-2122252032, useBlast:true, tmpFrames:ClientWindowFrames{frame=[0,0][1080,2412] display=[0,0][1080,2412] parentFrame=[0,0][0,0]}, params:null
+2024-09-21 19:46:25.072 11528-11528 BLASTBufferQueue        com.tradingbot.smatestbot2           D  [VRI[MainActivity]#0](f:0,a:1) destructor()
+2024-09-21 19:46:25.072 11528-11528 BufferQueueConsumer     com.tradingbot.smatestbot2           D  [VRI[MainActivity]#0(BLAST Consumer)0](id:2d0800000000,api:0,p:-1,c:11528) disconnect
+2024-09-21 19:46:25.091 11528-11528 VRI[MainActivity]       com.tradingbot.smatestbot2           D  setWindowStopped stopped:true
+2024-09-21 19:46:25.100 11528-11528 ViewRootImplExtImpl     com.tradingbot.smatestbot2           D  wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=360, relayoutAsync=false, newFlags=23592960, title=com.tradingbot.smatestbot2/com.tradingbot.smatestbot2.MainActivity
+2024-09-21 19:46:25.121 11528-11528 VRI[MainActivity]       com.tradingbot.smatestbot2           D  relayoutWindow result, sizeChanged:false, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(1080, 2412), mLastSurfaceSize:Point(1080, 2412), mWidth:1080, mHeight:2412, requestedWidth:1080, requestedHeight:2412, transformHint:0, lastTransformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:false, attr.flag:-2122252032, useBlast:true, tmpFrames:ClientWindowFrames{frame=[0,0][1080,2412] display=[0,0][1080,2412] parentFrame=[0,0][0,0]}, params:{(0,0)(fillxfill) sim={adjust=pan} ty=BASE_APPLICATION wanim=0x10302fe
+                                                                                                      fl=LAYOUT_IN_SCREEN LAYOUT_INSET_DECOR SPLIT_TOUCH HARDWARE_ACCELERATED DRAWS_SYSTEM_BAR_BACKGROUNDS
+                                                                                                      pfl=NO_MOVE_ANIMATION FORCE_DRAW_STATUS_BAR_BACKGROUND USE_BLAST FIT_INSETS_CONTROLLED
+                                                                                                      bhv=DEFAULT
+                                                                                                      fitSides= CLP[ ]}
+2024-09-21 19:46:25.985 11528-12066 OplusScrollToTopManager com.tradingbot.smatestbot2           D  com.tradingbot.smatestbot2/com.tradingbot.smatestbot2.MainActivity,This DecorView@d69ccb0[MainActivity] change focus to false
+---------------------------- PROCESS ENDED (11528) for package com.tradingbot.smatestbot2 ----------------------------
