@@ -1,122 +1,126 @@
-2024-09-27 03:43:29.232  2230-3511  UAH_JNI                 system_server                        E  uah_event_acquire ! cmdId: 1 ,strPkg: com.tradingbot.versbot, strIdent: com.android.server.wm, timeout: 2000
-2024-09-27 03:43:29.298  2230-3511  UAH_JNI                 system_server                        E  uah_event_acquire ! cmdId: 0 ,strPkg: com.tradingbot.versbot, strIdent: com.android.server.wm, timeout: 600
-2024-09-27 03:43:29.305  2230-2753  OplusThermalStats       system_server                        E  Error getting package info: com.tradingbot.versbot
----------------------------- PROCESS STARTED (15539) for package com.tradingbot.versbot ----------------------------
-2024-09-27 03:43:29.549 15539-15539 libc                    com.tradingbot.versbot               W  Access denied finding property "ro.odm.prev.product.name"
-2024-09-27 03:43:29.552 15539-15539 ziparchive              com.tradingbot.versbot               W  Unable to open '/data/data/com.tradingbot.versbot/code_cache/.overlay/base.apk/classes3.dm': No such file or directory
-2024-09-27 03:43:29.552 15539-15539 ziparchive              com.tradingbot.versbot               W  Unable to open '/data/app/~~LfRrsdqM9Kuznmv4OgeAZg==/com.tradingbot.versbot-Zd85c99vJ8jXdNnr7OJKRg==/base.dm': No such file or directory
-2024-09-27 03:43:29.552 15539-15539 ziparchive              com.tradingbot.versbot               W  Unable to open '/data/app/~~LfRrsdqM9Kuznmv4OgeAZg==/com.tradingbot.versbot-Zd85c99vJ8jXdNnr7OJKRg==/base.dm': No such file or directory
-2024-09-27 03:43:29.707 15539-15539 nativeloader            com.tradingbot.versbot               D  Configuring clns-4 for other apk /data/app/~~LfRrsdqM9Kuznmv4OgeAZg==/com.tradingbot.versbot-Zd85c99vJ8jXdNnr7OJKRg==/base.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~LfRrsdqM9Kuznmv4OgeAZg==/com.tradingbot.versbot-Zd85c99vJ8jXdNnr7OJKRg==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.tradingbot.versbot
-2024-09-27 03:43:29.714 15539-15539 nativeloader            com.tradingbot.versbot               D  Load libframework-connectivity-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity.jar: ok
-2024-09-27 03:43:29.717 15539-15539 GraphicsEnvironment     com.tradingbot.versbot               V  Currently set values for:
-2024-09-27 03:43:29.717 15539-15539 GraphicsEnvironment     com.tradingbot.versbot               V    angle_gl_driver_selection_pkgs=[]
-2024-09-27 03:43:29.717 15539-15539 GraphicsEnvironment     com.tradingbot.versbot               V    angle_gl_driver_selection_values=[]
-2024-09-27 03:43:29.717 15539-15539 GraphicsEnvironment     com.tradingbot.versbot               V  ANGLE GameManagerService for com.tradingbot.versbot: false
-2024-09-27 03:43:29.717 15539-15539 GraphicsEnvironment     com.tradingbot.versbot               V  com.tradingbot.versbot is not listed in per-application setting
-2024-09-27 03:43:29.717 15539-15539 GraphicsEnvironment     com.tradingbot.versbot               V  Updatable production driver is not supported on the device.
-2024-09-27 03:43:29.718 15539-15539 ActivityThread          com.tradingbot.versbot               W  Application com.tradingbot.versbot is suspending. Debugger needs to resume to continue.
-2024-09-27 03:43:29.719 15539-15539 System.out              com.tradingbot.versbot               I  Sending WAIT chunk
-2024-09-27 03:43:29.719 15539-15539 System.out              com.tradingbot.versbot               I  Waiting for debugger first packet
-2024-09-27 03:43:29.774 15539-19876 nativeloader            com.tradingbot.versbot               D  Load libjdwp.so using system ns (caller=<unknown>): ok
-2024-09-27 03:43:29.919 15539-15539 System.out              com.tradingbot.versbot               I  Debug.suspendAllAndSentVmStart
-2024-09-27 03:43:30.925 15539-15539 System.out              com.tradingbot.versbot               I  Debug.suspendAllAndSendVmStart, resumed
-2024-09-27 03:43:30.929 15539-15539 ResourcesManagerExtImpl com.tradingbot.versbot               D  applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
-2024-09-27 03:43:30.943 15539-15539 nativeloader            com.tradingbot.versbot               D  Load libSchedAssistJni.so using system ns (caller=/system/framework/oplus-framework.jar): ok
-2024-09-27 03:43:30.943 15539-15539 ExtensionsLoader        com.tradingbot.versbot               D  createInstance(64bit) : createExtendedFactory
-2024-09-27 03:43:30.943 15539-15539 ExtensionsLoader        com.tradingbot.versbot               D  Opened libSchedAssistExtImpl.so
-2024-09-27 03:43:30.943 15539-15539 SchedAssist             com.tradingbot.versbot               E  sysOpen failed with error=Permission denied
-2024-09-27 03:43:30.943 15539-15539 SchedAssist             com.tradingbot.versbot               E  sharedImFd failed with error=Permission denied
-2024-09-27 03:43:30.947 15539-15539 OplusGraphicsEvent      com.tradingbot.versbot               D  OplusGraphicsEventListener create now!
-2024-09-27 03:43:30.949 15539-15539 OplusGraphicsEvent      com.tradingbot.versbot               D  addEventListener success!
-2024-09-27 03:43:30.951  2230-4093  ScrollOpti...rfService] system_server                        E  isScrollOptimEnable: pkgName = com.tradingbot.versbot, output = Bundle[{pre_anim_enable=true, frame_insert_list=null, frame_insert_default_num=1, scroll_changed_enable_list=null}]
-2024-09-27 03:43:30.951 15539-15539 ScrollOpti...igManager] com.tradingbot.versbot               D  initOptConfig: pkg= com.tradingbot.versbot, mOptEnable= true, mAnimAheadEnable= true, mInsertDefaultNum= 1, mFrameInsertEnableList= {}, mSCEnableList= []
-2024-09-27 03:43:30.954 15539-15539 Quality                 com.tradingbot.versbot               I  ActivityThread: bindApplication delay 1456 com.tradingbot.versbot 15539
-2024-09-27 03:43:30.956 15539-19934 Quality                 com.tradingbot.versbot               I  Blocked msg = Package name: com.tradingbot.versbot [ schedGroup: 5 schedPolicy: 0 ] process the message: { when=-1s649ms what=110 target=android.app.ActivityThread$H obj=AppBindData{appInfo=ApplicationInfo{49ef471 com.tradingbot.versbot}} } took 1456 ms
-2024-09-27 03:43:30.966 15539-15539 ResourcesManagerExtImpl com.tradingbot.versbot               D  applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
-2024-09-27 03:43:30.977 15539-15539 oplus.andr...actoryImpl com.tradingbot.versbot               I  Unknow feature:IOplusTextViewRTLUtilForUG
-2024-09-27 03:43:30.979 15539-15539 nativeloader            com.tradingbot.versbot               D  Load liboplushwui_jni.so using system ns (caller=/system/framework/oplus-framework.jar): ok
-2024-09-27 03:43:30.983 15539-15539 dingbot.versbot         com.tradingbot.versbot               E  Invalid resource ID 0x00000000.
-2024-09-27 03:43:30.995 15539-15539 OplusCusto...ionManager com.tradingbot.versbot               E  sInstance is null, start a new sInstance
-2024-09-27 03:43:30.997 15539-15539 Compatibil...geReporter com.tradingbot.versbot               D  Compat change id reported: 210923482; UID 10565; state: ENABLED
-2024-09-27 03:43:31.002 15539-15539 ScrollOpti...tionHelper com.tradingbot.versbot               D  can't find the config file for optimizaiton
-2024-09-27 03:43:31.002 15539-15539 ScrollOpti...tionHelper com.tradingbot.versbot               D  will not debug for debug is false
-2024-09-27 03:43:31.002 15539-15539 Compatibil...geReporter com.tradingbot.versbot               D  Compat change id reported: 171228096; UID 10565; state: ENABLED
-2024-09-27 03:43:31.002 15539-15539 oplus.andr...actoryImpl com.tradingbot.versbot               I  get feature:IOplusDynamicVsyncFeature
-2024-09-27 03:43:31.002 15539-15539 oplus.andr...actoryImpl com.tradingbot.versbot               I  get feature:IOplusDynamicVsyncFeature
-2024-09-27 03:43:31.002 15539-15539 oplus.andr...actoryImpl com.tradingbot.versbot               I  get feature:IOplusDynamicVsyncFeature
-2024-09-27 03:43:31.009 15539-15539 ScrollOpti...neManager] com.tradingbot.versbot               D  updateCurrentActivity: mCurrentActivityName=com.tradingbot.versbot.MainActivity, isOptEnable=true, isAnimAheadEnable=true, isFrameInsertEnable=true, InsertNum=1, isEnabledForScrollChanged=false
-2024-09-27 03:43:31.009 15539-15539 ActivityThread          com.tradingbot.versbot               D  ComponentInfo{com.tradingbot.versbot/com.tradingbot.versbot.MainActivity} checkFinished=false 2
-2024-09-27 03:43:31.009 15539-15539 ResourcesManagerExtImpl com.tradingbot.versbot               D  applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
-2024-09-27 03:43:31.010 15539-15539 OplusInputMethodUtil    com.tradingbot.versbot               D  init sDebug to false, init sDebugIme to false, init sAlwaysOn to false
-2024-09-27 03:43:31.010 15539-15539 OplusInputMethodUtil    com.tradingbot.versbot               D  updateDebugToClass InputMethodManager.DEBUG = false
-2024-09-27 03:43:31.010 15539-15539 OplusInputMethodUtil    com.tradingbot.versbot               D  updateDebugToClass ImeFocusController.DEBUG = false
-2024-09-27 03:43:31.010 15539-15539 OplusInputMethodUtil    com.tradingbot.versbot               D  updateDebugToClass BaseInputConnection.DEBUG = false
-2024-09-27 03:43:31.013 15539-15539 ExtensionsLoader        com.tradingbot.versbot               D  createInstance(64bit) : createExtendedFactory
-2024-09-27 03:43:31.013 15539-15539 ExtensionsLoader        com.tradingbot.versbot               D  Opened libguiextimpl.so
-2024-09-27 03:43:31.013 15539-15539 nativeloader            com.tradingbot.versbot               D  Load liboplusgui_jni.so using system ns (caller=/system/framework/oplus-framework.jar): ok
-2024-09-27 03:43:31.015 15539-15539 Compatibil...geReporter com.tradingbot.versbot               D  Compat change id reported: 237531167; UID 10565; state: DISABLED
-2024-09-27 03:43:31.017 15539-15539 DynamicFra...igManager] com.tradingbot.versbot               I  initFrameRateConfig: 
+2024-09-27 04:41:12.326 20078-9970  dingbot.versbot         com.tradingbot.versbot               E  Unknown message received from debugger! ''
+2024-09-27 04:41:13.336  2230-3511  UAH_JNI                 system_server                        E  uah_event_acquire ! cmdId: 1 ,strPkg: com.tradingbot.versbot, strIdent: com.android.server.wm, timeout: 2000
+2024-09-27 04:41:13.439  2230-3511  UAH_JNI                 system_server                        E  uah_event_acquire ! cmdId: 0 ,strPkg: com.tradingbot.versbot, strIdent: com.android.server.wm, timeout: 600
+2024-09-27 04:41:13.444  2230-2753  OplusThermalStats       system_server                        E  Error getting package info: com.tradingbot.versbot
+2024-09-27 04:41:13.683 27047-27047 OplusScrollToTopManager com.tradingbot.versbot               D  setIsInWhiteList false
+2024-09-27 04:41:13.683 27047-27047 OplusViewDebugManager   com.tradingbot.versbot               D  OplusViewDebugManager Constructor android.view.debug.OplusViewDebugManager@aba300 [mHasViewDebugProperty true] [mHasMsgDebugProperty false] [DEBUG false] [EXTRAINFOENABLE false] [LIGHT_OS false]
+2024-09-27 04:41:13.684 27047-27047 Compatibil...geReporter com.tradingbot.versbot               D  Compat change id reported: 242716250; UID 10565; state: ENABLED
+2024-09-27 04:41:13.686 27047-27047 libc                    com.tradingbot.versbot               W  Access denied finding property "ro.odm.prev.product.name"
+2024-09-27 04:41:13.689 27047-27047 ziparchive              com.tradingbot.versbot               W  Unable to open '/data/data/com.tradingbot.versbot/code_cache/.overlay/base.apk/classes3.dm': No such file or directory
+2024-09-27 04:41:13.689 27047-27047 ziparchive              com.tradingbot.versbot               W  Unable to open '/data/app/~~LfRrsdqM9Kuznmv4OgeAZg==/com.tradingbot.versbot-Zd85c99vJ8jXdNnr7OJKRg==/base.dm': No such file or directory
+2024-09-27 04:41:13.689 27047-27047 ziparchive              com.tradingbot.versbot               W  Unable to open '/data/app/~~LfRrsdqM9Kuznmv4OgeAZg==/com.tradingbot.versbot-Zd85c99vJ8jXdNnr7OJKRg==/base.dm': No such file or directory
+2024-09-27 04:41:13.843 27047-27047 nativeloader            com.tradingbot.versbot               D  Configuring clns-4 for other apk /data/app/~~LfRrsdqM9Kuznmv4OgeAZg==/com.tradingbot.versbot-Zd85c99vJ8jXdNnr7OJKRg==/base.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~LfRrsdqM9Kuznmv4OgeAZg==/com.tradingbot.versbot-Zd85c99vJ8jXdNnr7OJKRg==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.tradingbot.versbot
+2024-09-27 04:41:13.850 27047-27047 nativeloader            com.tradingbot.versbot               D  Load libframework-connectivity-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity.jar: ok
+2024-09-27 04:41:13.853 27047-27047 GraphicsEnvironment     com.tradingbot.versbot               V  Currently set values for:
+2024-09-27 04:41:13.853 27047-27047 GraphicsEnvironment     com.tradingbot.versbot               V    angle_gl_driver_selection_pkgs=[]
+2024-09-27 04:41:13.853 27047-27047 GraphicsEnvironment     com.tradingbot.versbot               V    angle_gl_driver_selection_values=[]
+2024-09-27 04:41:13.853 27047-27047 GraphicsEnvironment     com.tradingbot.versbot               V  ANGLE GameManagerService for com.tradingbot.versbot: false
+2024-09-27 04:41:13.853 27047-27047 GraphicsEnvironment     com.tradingbot.versbot               V  com.tradingbot.versbot is not listed in per-application setting
+2024-09-27 04:41:13.853 27047-27047 GraphicsEnvironment     com.tradingbot.versbot               V  Updatable production driver is not supported on the device.
+2024-09-27 04:41:13.855 27047-27047 ActivityThread          com.tradingbot.versbot               W  Application com.tradingbot.versbot is suspending. Debugger needs to resume to continue.
+2024-09-27 04:41:13.855 27047-27047 System.out              com.tradingbot.versbot               I  Sending WAIT chunk
+2024-09-27 04:41:13.855 27047-27047 System.out              com.tradingbot.versbot               I  Waiting for debugger first packet
+2024-09-27 04:41:13.893 27047-13266 nativeloader            com.tradingbot.versbot               D  Load libjdwp.so using system ns (caller=<unknown>): ok
+2024-09-27 04:41:14.055 27047-27047 System.out              com.tradingbot.versbot               I  Debug.suspendAllAndSentVmStart
+2024-09-27 04:41:14.490 27047-27047 System.out              com.tradingbot.versbot               I  Debug.suspendAllAndSendVmStart, resumed
+2024-09-27 04:41:14.495 27047-27047 ResourcesManagerExtImpl com.tradingbot.versbot               D  applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+2024-09-27 04:41:14.510 27047-27047 nativeloader            com.tradingbot.versbot               D  Load libSchedAssistJni.so using system ns (caller=/system/framework/oplus-framework.jar): ok
+2024-09-27 04:41:14.510 27047-27047 ExtensionsLoader        com.tradingbot.versbot               D  createInstance(64bit) : createExtendedFactory
+2024-09-27 04:41:14.510 27047-27047 ExtensionsLoader        com.tradingbot.versbot               D  Opened libSchedAssistExtImpl.so
+2024-09-27 04:41:14.510 27047-27047 SchedAssist             com.tradingbot.versbot               E  sysOpen failed with error=Permission denied
+2024-09-27 04:41:14.510 27047-27047 SchedAssist             com.tradingbot.versbot               E  sharedImFd failed with error=Permission denied
+2024-09-27 04:41:14.513 27047-27047 OplusGraphicsEvent      com.tradingbot.versbot               D  OplusGraphicsEventListener create now!
+2024-09-27 04:41:14.513 27047-27047 OplusGraphicsEvent      com.tradingbot.versbot               D  addEventListener success!
+2024-09-27 04:41:14.515  2230-3559  ScrollOpti...rfService] system_server                        E  isScrollOptimEnable: pkgName = com.tradingbot.versbot, output = Bundle[{pre_anim_enable=true, frame_insert_list=null, frame_insert_default_num=1, scroll_changed_enable_list=null}]
+2024-09-27 04:41:14.515 27047-27047 ScrollOpti...igManager] com.tradingbot.versbot               D  initOptConfig: pkg= com.tradingbot.versbot, mOptEnable= true, mAnimAheadEnable= true, mInsertDefaultNum= 1, mFrameInsertEnableList= {}, mSCEnableList= []
+2024-09-27 04:41:14.518 27047-27047 Quality                 com.tradingbot.versbot               I  ActivityThread: bindApplication delay 876 com.tradingbot.versbot 27047
+2024-09-27 04:41:14.525 27047-27047 ResourcesManagerExtImpl com.tradingbot.versbot               D  applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+2024-09-27 04:41:14.536 27047-27047 oplus.andr...actoryImpl com.tradingbot.versbot               I  Unknow feature:IOplusTextViewRTLUtilForUG
+2024-09-27 04:41:14.537 27047-27047 nativeloader            com.tradingbot.versbot               D  Load liboplushwui_jni.so using system ns (caller=/system/framework/oplus-framework.jar): ok
+2024-09-27 04:41:14.539 27047-27047 dingbot.versbot         com.tradingbot.versbot               E  Invalid resource ID 0x00000000.
+2024-09-27 04:41:14.550 27047-27047 OplusCusto...ionManager com.tradingbot.versbot               E  sInstance is null, start a new sInstance
+2024-09-27 04:41:14.552 27047-27047 Compatibil...geReporter com.tradingbot.versbot               D  Compat change id reported: 210923482; UID 10565; state: ENABLED
+2024-09-27 04:41:14.557 27047-27047 ScrollOpti...tionHelper com.tradingbot.versbot               D  can't find the config file for optimizaiton
+2024-09-27 04:41:14.557 27047-27047 ScrollOpti...tionHelper com.tradingbot.versbot               D  will not debug for debug is false
+2024-09-27 04:41:14.557 27047-27047 Compatibil...geReporter com.tradingbot.versbot               D  Compat change id reported: 171228096; UID 10565; state: ENABLED
+2024-09-27 04:41:14.557 27047-27047 oplus.andr...actoryImpl com.tradingbot.versbot               I  get feature:IOplusDynamicVsyncFeature
+2024-09-27 04:41:14.558 27047-27047 oplus.andr...actoryImpl com.tradingbot.versbot               I  get feature:IOplusDynamicVsyncFeature
+2024-09-27 04:41:14.558 27047-27047 oplus.andr...actoryImpl com.tradingbot.versbot               I  get feature:IOplusDynamicVsyncFeature
+2024-09-27 04:41:14.564 27047-27047 ScrollOpti...neManager] com.tradingbot.versbot               D  updateCurrentActivity: mCurrentActivityName=com.tradingbot.versbot.MainActivity, isOptEnable=true, isAnimAheadEnable=true, isFrameInsertEnable=true, InsertNum=1, isEnabledForScrollChanged=false
+2024-09-27 04:41:14.564 27047-27047 ActivityThread          com.tradingbot.versbot               D  ComponentInfo{com.tradingbot.versbot/com.tradingbot.versbot.MainActivity} checkFinished=false 2
+2024-09-27 04:41:14.564 27047-27047 ResourcesManagerExtImpl com.tradingbot.versbot               D  applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+2024-09-27 04:41:14.565 27047-27047 OplusInputMethodUtil    com.tradingbot.versbot               D  init sDebug to false, init sDebugIme to false, init sAlwaysOn to false
+2024-09-27 04:41:14.565 27047-27047 OplusInputMethodUtil    com.tradingbot.versbot               D  updateDebugToClass InputMethodManager.DEBUG = false
+2024-09-27 04:41:14.565 27047-27047 OplusInputMethodUtil    com.tradingbot.versbot               D  updateDebugToClass ImeFocusController.DEBUG = false
+2024-09-27 04:41:14.565 27047-27047 OplusInputMethodUtil    com.tradingbot.versbot               D  updateDebugToClass BaseInputConnection.DEBUG = false
+2024-09-27 04:41:14.568 27047-27047 ExtensionsLoader        com.tradingbot.versbot               D  createInstance(64bit) : createExtendedFactory
+2024-09-27 04:41:14.568 27047-27047 ExtensionsLoader        com.tradingbot.versbot               D  Opened libguiextimpl.so
+2024-09-27 04:41:14.568 27047-27047 nativeloader            com.tradingbot.versbot               D  Load liboplusgui_jni.so using system ns (caller=/system/framework/oplus-framework.jar): ok
+2024-09-27 04:41:14.570 27047-27047 Compatibil...geReporter com.tradingbot.versbot               D  Compat change id reported: 237531167; UID 10565; state: DISABLED
+2024-09-27 04:41:14.572 27047-27047 DynamicFra...igManager] com.tradingbot.versbot               I  initFrameRateConfig: 
                                                                                                     	levels: [120, 60]
                                                                                                     	thresholds: [200]
                                                                                                     	scrollbar fade frame rate: 0
-2024-09-27 03:43:31.017 15539-15539 DynamicFra...igManager] com.tradingbot.versbot               I  FRTCConfigManager: FRTC_CAPABILITY = 120, package name = com.tradingbot.versbot, WINDOW_ANIMATION_SPEED_RATE = 10, SCROLL_ANIMATION_SPEED_RATE = 20, MuitiWindowIdleFramerate = 60, PACKAGE_ENABLE = false
-2024-09-27 03:43:31.018 15539-15539 DynamicFra...ontroller] com.tradingbot.versbot               I  init info: mPackageName = com.tradingbot.versbot, mIsEnabled = false
-2024-09-27 03:43:31.018 15539-15539 WindowManager           com.tradingbot.versbot               D  Add to mViews: DecorView@ae9a516[MainActivity],pkg= com.tradingbot.versbot
-2024-09-27 03:43:31.019 15539-20253 ExtensionsLoader        com.tradingbot.versbot               D  createInstance(64bit) : createExtendedFactory
-2024-09-27 03:43:31.022 15539-20253 ExtensionsLoader        com.tradingbot.versbot               D  Opened libhwuiextimpl.so
-2024-09-27 03:43:31.022 15539-15539 ExtensionsLoader        com.tradingbot.versbot               D  createInstance(64bit) : createExtendedFactory
-2024-09-27 03:43:31.022 15539-15539 ExtensionsLoader        com.tradingbot.versbot               D  Opened libSchedAssistExtImpl.so
-2024-09-27 03:43:31.034 15539-15539 InputEventReceiver      com.tradingbot.versbot               D  Input log is disabled in InputEventReceiver.
-2024-09-27 03:43:31.037 15539-15539 ResourcesManagerExtImpl com.tradingbot.versbot               D  applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
-2024-09-27 03:43:31.038 15539-15539 Quality                 com.tradingbot.versbot               I  Skipped: false 3 cost 29.608593 refreshRate 8331388 bit true processName com.tradingbot.versbot
-2024-09-27 03:43:31.040 15539-15539 OplusBracketLog         com.tradingbot.versbot               E  [OplusViewMirrorManager] updateHostViewRootIfNeeded, not support android.view.ViewRootImpl@76328f0
-2024-09-27 03:43:31.049 15539-15539 ViewRootImplExtImpl     com.tradingbot.versbot               D  wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=360, relayoutAsync=false, newFlags=23592960, title=com.tradingbot.versbot/com.tradingbot.versbot.MainActivity
-2024-09-27 03:43:31.062 15539-15539 VRI[MainActivity]       com.tradingbot.versbot               D  relayoutWindow result, sizeChanged:true, surfaceControlChanged:true, transformHintChanged:true, mSurfaceSize:Point(1080, 2412), mLastSurfaceSize:Point(0, 0), mWidth:-1, mHeight:-1, requestedWidth:1080, requestedHeight:2412, transformHint:0, lastTransformHint:-2147483648, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:-2122252032, useBlast:true, tmpFrames:ClientWindowFrames{frame=[0,0][1080,2412] display=[0,0][1080,2412] parentFrame=[0,0][0,0]}, params:{(0,0)(fillxfill) sim={adjust=resize forwardNavigation} ty=BASE_APPLICATION wanim=0x10302fe
+2024-09-27 04:41:14.572 27047-27047 DynamicFra...igManager] com.tradingbot.versbot               I  FRTCConfigManager: FRTC_CAPABILITY = 120, package name = com.tradingbot.versbot, WINDOW_ANIMATION_SPEED_RATE = 10, SCROLL_ANIMATION_SPEED_RATE = 20, MuitiWindowIdleFramerate = 60, PACKAGE_ENABLE = false
+2024-09-27 04:41:14.572 27047-27047 DynamicFra...ontroller] com.tradingbot.versbot               I  init info: mPackageName = com.tradingbot.versbot, mIsEnabled = false
+2024-09-27 04:41:14.573 27047-27047 WindowManager           com.tradingbot.versbot               D  Add to mViews: DecorView@616fa31[MainActivity],pkg= com.tradingbot.versbot
+2024-09-27 04:41:14.574 27047-13310 ExtensionsLoader        com.tradingbot.versbot               D  createInstance(64bit) : createExtendedFactory
+2024-09-27 04:41:14.575 27047-13310 ExtensionsLoader        com.tradingbot.versbot               D  Opened libhwuiextimpl.so
+2024-09-27 04:41:14.575 27047-27047 ExtensionsLoader        com.tradingbot.versbot               D  createInstance(64bit) : createExtendedFactory
+2024-09-27 04:41:14.575 27047-27047 ExtensionsLoader        com.tradingbot.versbot               D  Opened libSchedAssistExtImpl.so
+2024-09-27 04:41:14.588 27047-27047 InputEventReceiver      com.tradingbot.versbot               D  Input log is disabled in InputEventReceiver.
+2024-09-27 04:41:14.592 27047-27047 ResourcesManagerExtImpl com.tradingbot.versbot               D  applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:-1
+2024-09-27 04:41:14.594 27047-27047 Quality                 com.tradingbot.versbot               I  Skipped: false 3 cost 30.202032 refreshRate 8333195 bit true processName com.tradingbot.versbot
+2024-09-27 04:41:14.596 27047-27047 OplusBracketLog         com.tradingbot.versbot               E  [OplusViewMirrorManager] updateHostViewRootIfNeeded, not support android.view.ViewRootImpl@29b1d33
+2024-09-27 04:41:14.605 27047-27047 ViewRootImplExtImpl     com.tradingbot.versbot               D  wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=360, relayoutAsync=false, newFlags=23592960, title=com.tradingbot.versbot/com.tradingbot.versbot.MainActivity
+2024-09-27 04:41:14.620 27047-27047 VRI[MainActivity]       com.tradingbot.versbot               D  relayoutWindow result, sizeChanged:true, surfaceControlChanged:true, transformHintChanged:true, mSurfaceSize:Point(1080, 2412), mLastSurfaceSize:Point(0, 0), mWidth:-1, mHeight:-1, requestedWidth:1080, requestedHeight:2412, transformHint:0, lastTransformHint:-2147483648, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:-2122252032, useBlast:true, tmpFrames:ClientWindowFrames{frame=[0,0][1080,2412] display=[0,0][1080,2412] parentFrame=[0,0][0,0]}, params:{(0,0)(fillxfill) sim={adjust=resize forwardNavigation} ty=BASE_APPLICATION wanim=0x10302fe
                                                                                                       fl=LAYOUT_IN_SCREEN LAYOUT_INSET_DECOR SPLIT_TOUCH HARDWARE_ACCELERATED DRAWS_SYSTEM_BAR_BACKGROUNDS
                                                                                                       pfl=NO_MOVE_ANIMATION FORCE_DRAW_STATUS_BAR_BACKGROUND USE_BLAST FIT_INSETS_CONTROLLED
                                                                                                       bhv=DEFAULT
                                                                                                       fitSides= CLP[ ]}
-2024-09-27 03:43:31.062 15539-15539 VRI[MainActivity]       com.tradingbot.versbot               W  updateBlastSurfaceIfNeeded, surfaceSize:Point(1080, 2412), lastSurfaceSize:Point(0, 0), format:-1, blastBufferQueue:null
-2024-09-27 03:43:31.070 15539-15539 BufferQueueConsumer     com.tradingbot.versbot               D  [](id:3cb300000000,api:0,p:-1,c:15539) connect: controlledByApp=false
-2024-09-27 03:43:31.071 15539-15539 ExtensionsLoader        com.tradingbot.versbot               D  createInstance(64bit) : createExtendedFactory
-2024-09-27 03:43:31.071 15539-15539 ExtensionsLoader        com.tradingbot.versbot               D  Opened libSchedAssistExtImpl.so
-2024-09-27 03:43:31.073 15539-20253 AdrenoGLES-0            com.tradingbot.versbot               I  QUALCOMM build                   : a1cf8ab5e3, I428bf45773
+2024-09-27 04:41:14.621 27047-27047 VRI[MainActivity]       com.tradingbot.versbot               W  updateBlastSurfaceIfNeeded, surfaceSize:Point(1080, 2412), lastSurfaceSize:Point(0, 0), format:-1, blastBufferQueue:null
+2024-09-27 04:41:14.629 27047-27047 BufferQueueConsumer     com.tradingbot.versbot               D  [](id:69a700000000,api:0,p:-1,c:27047) connect: controlledByApp=false
+2024-09-27 04:41:14.630 27047-27047 ExtensionsLoader        com.tradingbot.versbot               D  createInstance(64bit) : createExtendedFactory
+2024-09-27 04:41:14.630 27047-27047 ExtensionsLoader        com.tradingbot.versbot               D  Opened libSchedAssistExtImpl.so
+2024-09-27 04:41:14.632 27047-13310 AdrenoGLES-0            com.tradingbot.versbot               I  QUALCOMM build                   : a1cf8ab5e3, I428bf45773
                                                                                                     Build Date                       : 11/09/23
                                                                                                     OpenGL ES Shader Compiler Version: EV031.35.01.12
                                                                                                     Local Branch                     : 
                                                                                                     Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.9.14.11.00.00.571.148
                                                                                                     Remote Branch                    : NONE
                                                                                                     Reconstruct Branch               : NOTHING
-2024-09-27 03:43:31.073 15539-20253 AdrenoGLES-0            com.tradingbot.versbot               I  Build Config                     : S P 10.0.7 AArch64
-2024-09-27 03:43:31.073 15539-20253 AdrenoGLES-0            com.tradingbot.versbot               I  Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
-2024-09-27 03:43:31.076 15539-20253 AdrenoGLES-0            com.tradingbot.versbot               I  PFP: 0x016dc094, ME: 0x00000000
-2024-09-27 03:43:31.086 15539-20253 BufferQueueProducer     com.tradingbot.versbot               D  [VRI[MainActivity]#0(BLAST Consumer)0](id:3cb300000000,api:1,p:15539,c:15539) connect: api=1 producerControlledByApp=true
-2024-09-27 03:43:31.086 15539-20253 OpenGLRenderer          com.tradingbot.versbot               E  Unable to match the desired swap behavior.
-2024-09-27 03:43:31.087 15539-15539 SurfaceControl          com.tradingbot.versbot               I   setExtendedRangeBrightness sc=Surface(name=com.tradingbot.versbot/com.tradingbot.versbot.MainActivity)/@0xd0f1495,currentBufferRatio=1.0,desiredRatio=1.0
-2024-09-27 03:43:31.101 15539-20253 BLASTBufferQueue        com.tradingbot.versbot               D  [VRI[MainActivity]#0](f:0,a:1) acquireNextBufferLocked size=1080x2412 mFrameNumber=1 applyTransaction=true mTimestamp=182773929691213(auto) mPendingTransactions.size=0 graphicBufferId=66739496812544 transform=0
-2024-09-27 03:43:31.101 15539-20253 VRI[MainActivity]       com.tradingbot.versbot               D  Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
-2024-09-27 03:43:31.101 15539-15539 VRI[MainActivity]       com.tradingbot.versbot               D  draw finished.
-2024-09-27 03:43:31.101 15539-15539 VRI[MainActivity]       com.tradingbot.versbot               D  reportDrawFinished
-2024-09-27 03:43:31.102 15539-15539 ViewRootImplExtImpl     com.tradingbot.versbot               D  setMaxDequeuedBufferCount: 2
-2024-09-27 03:43:31.102 15539-15539 Quality                 com.tradingbot.versbot               I  Skipped: false 6 cost 52.57397 refreshRate 8331793 bit true processName com.tradingbot.versbot
-2024-09-27 03:43:31.105 15539-15539 VRI[MainActivity]       com.tradingbot.versbot               W  handleResized, msg:5, frameChanged:false, configChanged:false, displayChanged:false, attachedFrameChanged:false, compatScaleChanged:false, pendingDragResizing=false
-2024-09-27 03:43:31.114 15539-15539 VRI[MainActivity]       com.tradingbot.versbot               D  onFocusEvent true
-2024-09-27 03:43:31.119 15539-20253 VRI[MainActivity]       com.tradingbot.versbot               D  Received frameCommittedCallback lastAttemptedDrawFrameNum=3 didProduceBuffer=false syncBuffer=false
-2024-09-27 03:43:31.120 15539-15539 VRI[MainActivity]       com.tradingbot.versbot               D  draw finished.
-2024-09-27 03:43:31.120 15539-15539 VRI[MainActivity]       com.tradingbot.versbot               D  reportDrawFinished
-2024-09-27 03:43:31.459 15539-19877 dingbot.versbot         com.tradingbot.versbot               I  Compiler allocated 6275KB to compile void android.view.ViewRootImpl.performTraversals()
-2024-09-27 03:43:32.132 15539-20271 OplusScrollToTopManager com.tradingbot.versbot               D  com.tradingbot.versbot/com.tradingbot.versbot.MainActivity,This DecorView@ae9a516[MainActivity] change focus to true
-2024-09-27 03:43:35.558 15539-15539 AutofillManager         com.tradingbot.versbot               V  requestHideFillUi(null): anchor = null
-2024-09-27 03:43:35.634 15539-15539 OplusInput...erInternal com.tradingbot.versbot               D  get inputMethodManager extension: com.android.internal.view.IInputMethodManager$Stub$Proxy@3ae5926
-2024-09-27 03:43:35.635 15539-15539 ViewRootImplExtImpl     com.tradingbot.versbot               D  MotionEvent MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=485.25, y[0]=203.25, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=182778461, downTime=182778373, deviceId=5, source=0x1002, displayId=0, eventId=459418686 } handled by client, just return
-2024-09-27 03:43:35.728 15539-21020 TrafficStats            com.tradingbot.versbot               D  tagSocket(152) with statsTag=0xffffffff, statsUid=-1
-2024-09-27 03:43:36.553 15539-21020 Logger                  com.tradingbot.versbot               D  2024-09-27 03:43:36.550 - Response Code: 200
-2024-09-27 03:43:36.623 15539-21334 ProfileInstaller        com.tradingbot.versbot               D  Installing profile for com.tradingbot.versbot
-2024-09-27 03:43:39.204 15539-15539 AutofillManager         com.tradingbot.versbot               V  requestHideFillUi(null): anchor = null
-2024-09-27 03:43:39.289 15539-15539 ViewRootImplExtImpl     com.tradingbot.versbot               D  MotionEvent MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=484.5, y[0]=451.5, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=182782116, downTime=182782030, deviceId=5, source=0x1002, displayId=0, eventId=824831106 } handled by client, just return
-2024-09-27 03:43:39.426 15539-21020 Logger                  com.tradingbot.versbot               D  2024-09-27 03:43:39.424 - Error: https://api-fxpractice.oanda.com/v3/accounts/101-001-29899550-002/summary
-2024-09-27 03:43:39.427 15539-21020 Logger                  com.tradingbot.versbot               D  2024-09-27 03:43:39.426 - Account ID: 101-001-29899550-002, Summary: Error: https://api-fxpractice.oanda.com/v3/accounts/101-001-29899550-002/summary
-2024-09-27 03:43:39.504 15539-21020 TrafficStats            com.tradingbot.versbot               D  tagSocket(121) with statsTag=0xffffffff, statsUid=-1
-2024-09-27 03:43:39.965 15539-21020 Logger                  com.tradingbot.versbot               D  2024-09-27 03:43:39.964 - Account ID: 101-001-29899550-001, Summary: {"account":{"guaranteedStopLossOrderMode":"DISABLED","hedgingEnabled":false,"id":"101-001-29899550-001","createdTime":"2024-09-13T10:44:10.174894789Z","currency":"USD","createdByUserID":29899550,"alias":"Test Account 01","marginRate":"0.02","lastTransactionID":"1580","balance":"110022.7500","openTradeCount":0,"openPositionCount":0,"pendingOrderCount":0,"pl":"22.7500","resettablePL":"22.7500","resettablePLTime":"0","financing":"0.0000","commission":"0.0000","dividendAdjustment":"0","guaranteedExecutionFees":"0.0000","unrealizedPL":"0.0000","NAV":"110022.7500","marginUsed":"0.0000","marginAvailable":"110022.7500","positionValue":"0.0000","marginCloseoutUnrealizedPL":"0.0000","marginCloseoutNAV":"110022.7500","marginCloseoutMarginUsed":"0.0000","marginCloseoutPositionValue":"0.0000","marginCloseoutPercent":"0.00000","withdrawalLimit":"110022.7500","marginCallMarginUsed":"0.0000","marginCallPercent":"0.00000"},"lastTransactionID":"1580"}
-2024-09-27 03:43:40.118 15539-21020 Logger                  com.tradingbot.versbot               D  2024-09-27 03:43:40.116 - Error: https://api-fxpractice.oanda.com/v3/accounts/101-001-29899550-003/summary
-2024-09-27 03:43:40.121 15539-21020 Logger                  com.tradingbot.versbot               D  2024-09-27 03:43:40.119 - Account ID: 101-001-29899550-003, Summary: Error: https://api-fxpractice.oanda.com/v3/accounts/101-001-29899550-003/summary
+2024-09-27 04:41:14.632 27047-13310 AdrenoGLES-0            com.tradingbot.versbot               I  Build Config                     : S P 10.0.7 AArch64
+2024-09-27 04:41:14.632 27047-13310 AdrenoGLES-0            com.tradingbot.versbot               I  Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+2024-09-27 04:41:14.635 27047-13310 AdrenoGLES-0            com.tradingbot.versbot               I  PFP: 0x016dc094, ME: 0x00000000
+2024-09-27 04:41:14.645 27047-13310 BufferQueueProducer     com.tradingbot.versbot               D  [VRI[MainActivity]#0(BLAST Consumer)0](id:69a700000000,api:1,p:27047,c:27047) connect: api=1 producerControlledByApp=true
+2024-09-27 04:41:14.645 27047-13310 OpenGLRenderer          com.tradingbot.versbot               E  Unable to match the desired swap behavior.
+2024-09-27 04:41:14.646 27047-27047 SurfaceControl          com.tradingbot.versbot               I   setExtendedRangeBrightness sc=Surface(name=com.tradingbot.versbot/com.tradingbot.versbot.MainActivity)/@0xfc8c4c,currentBufferRatio=1.0,desiredRatio=1.0
+2024-09-27 04:41:14.657 27047-13310 BLASTBufferQueue        com.tradingbot.versbot               D  [VRI[MainActivity]#0](f:0,a:1) acquireNextBufferLocked size=1080x2412 mFrameNumber=1 applyTransaction=true mTimestamp=186237483982808(auto) mPendingTransactions.size=0 graphicBufferId=116165980454912 transform=0
+2024-09-27 04:41:14.657 27047-13310 VRI[MainActivity]       com.tradingbot.versbot               D  Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+2024-09-27 04:41:14.658 27047-27047 VRI[MainActivity]       com.tradingbot.versbot               D  draw finished.
+2024-09-27 04:41:14.658 27047-27047 VRI[MainActivity]       com.tradingbot.versbot               D  reportDrawFinished
+2024-09-27 04:41:14.658 27047-27047 ViewRootImplExtImpl     com.tradingbot.versbot               D  setMaxDequeuedBufferCount: 2
+2024-09-27 04:41:14.658 27047-27047 Quality                 com.tradingbot.versbot               I  Skipped: false 6 cost 50.882435 refreshRate 8333101 bit true processName com.tradingbot.versbot
+2024-09-27 04:41:14.662 27047-27047 VRI[MainActivity]       com.tradingbot.versbot               W  handleResized, msg:5, frameChanged:false, configChanged:false, displayChanged:false, attachedFrameChanged:false, compatScaleChanged:false, pendingDragResizing=false
+2024-09-27 04:41:14.673 27047-27047 VRI[MainActivity]       com.tradingbot.versbot               D  onFocusEvent true
+2024-09-27 04:41:14.676 27047-13310 VRI[MainActivity]       com.tradingbot.versbot               D  Received frameCommittedCallback lastAttemptedDrawFrameNum=3 didProduceBuffer=false syncBuffer=false
+2024-09-27 04:41:14.676 27047-27047 VRI[MainActivity]       com.tradingbot.versbot               D  draw finished.
+2024-09-27 04:41:14.676 27047-27047 VRI[MainActivity]       com.tradingbot.versbot               D  reportDrawFinished
+2024-09-27 04:41:14.959 27047-13267 dingbot.versbot         com.tradingbot.versbot               I  Compiler allocated 6275KB to compile void android.view.ViewRootImpl.performTraversals()
+2024-09-27 04:41:15.684 27047-13333 OplusScrollToTopManager com.tradingbot.versbot               D  com.tradingbot.versbot/com.tradingbot.versbot.MainActivity,This DecorView@616fa31[MainActivity] change focus to true
+2024-09-27 04:41:20.037 27047-27047 AutofillManager         com.tradingbot.versbot               V  requestHideFillUi(null): anchor = null
+2024-09-27 04:41:20.139 27047-27047 OplusInput...erInternal com.tradingbot.versbot               D  get inputMethodManager extension: com.android.internal.view.IInputMethodManager$Stub$Proxy@c8cb481
+2024-09-27 04:41:20.142 27047-27047 ViewRootImplExtImpl     com.tradingbot.versbot               D  MotionEvent MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=502.5, y[0]=237.75, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=186242965, downTime=186242853, deviceId=5, source=0x1002, displayId=0, eventId=130452015 } handled by client, just return
+2024-09-27 04:41:20.158 27047-13675 Logger                  com.tradingbot.versbot               D  2024-09-27 04:41:20.153 - Making request to URL: https://api-fxpractice.oanda.com/v3/accounts
+2024-09-27 04:41:20.159 27047-13676 ProfileInstaller        com.tradingbot.versbot               D  Installing profile for com.tradingbot.versbot
+2024-09-27 04:41:20.161 27047-13675 Logger                  com.tradingbot.versbot               D  2024-09-27 04:41:20.158 - Request method: GET
+2024-09-27 04:41:20.163 27047-13675 Logger                  com.tradingbot.versbot               D  2024-09-27 04:41:20.162 - Request body: null
+2024-09-27 04:41:20.247 27047-13675 TrafficStats            com.tradingbot.versbot               D  tagSocket(124) with statsTag=0xffffffff, statsUid=-1
+2024-09-27 04:41:20.721 27047-13675 Logger                  com.tradingbot.versbot               D  2024-09-27 04:41:20.719 - Response code: 200
+2024-09-27 04:41:20.726 27047-13675 Logger                  com.tradingbot.versbot               D  2024-09-27 04:41:20.725 - Response: {"accounts":[{"id":"101-001-29899550-002","tags":[]},{"id":"101-001-29899550-001","tags":[]},{"id":"101-001-29899550-003","tags":[]}]}
+2024-09-27 04:41:23.774 27047-27047 AutofillManager         com.tradingbot.versbot               V  requestHideFillUi(null): anchor = null
+2024-09-27 04:41:23.891 27047-27047 ViewRootImplExtImpl     com.tradingbot.versbot               D  MotionEvent MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=510.75, y[0]=438.75, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=186246717, downTime=186246598, deviceId=5, source=0x1002, displayId=0, eventId=795400326 } handled by client, just return
+2024-09-27 04:41:23.897 27047-13675 Logger                  com.tradingbot.versbot               D  2024-09-27 04:41:23.896 - Making request to URL: https://api-fxpractice.oanda.com/v3/accounts/101-001-29899550-002/summary
+2024-09-27 04:41:23.898 27047-13675 Logger                  com.tradingbot.versbot               D  2024-09-27 04:41:23.897 - Request method: GET
+2024-09-27 04:41:23.899 27047-13675 Logger                  com.tradingbot.versbot               D  2024-09-27 04:41:23.898 - Request body: null
+2024-09-27 04:41:24.024 27047-13675 Logger                  com.tradingbot.versbot               D  2024-09-27 04:41:24.023 - Response code: 403
